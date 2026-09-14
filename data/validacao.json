@@ -1,0 +1,142 @@
+[
+  {
+    "ano": "2020",
+    "indicador": "214",
+    "soma_municipios": 1119143.0,
+    "total_estadual": 1119143.0,
+    "diferenca": 0.0
+  },
+  {
+    "ano": "2020",
+    "indicador": "216",
+    "soma_municipios": 31869.0,
+    "total_estadual": 31869.0,
+    "diferenca": 0.0
+  },
+  {
+    "ano": "2020",
+    "indicador": "2313",
+    "soma_municipios": 31873.0,
+    "total_estadual": 31873.0,
+    "diferenca": 0.0
+  },
+  {
+    "ano": "2020",
+    "indicador": "215",
+    "soma_municipios": 1248817.0,
+    "total_estadual": 1248813.0,
+    "diferenca": 4.0
+  },
+  {
+    "ano": "2021",
+    "indicador": "214",
+    "soma_municipios": 1073437.0,
+    "total_estadual": 1073437.0,
+    "diferenca": 0.0
+  },
+  {
+    "ano": "2021",
+    "indicador": "216",
+    "soma_municipios": 32564.0,
+    "total_estadual": 32564.0,
+    "diferenca": 0.0
+  },
+  {
+    "ano": "2021",
+    "indicador": "2313",
+    "soma_municipios": 32588.0,
+    "total_estadual": 32588.0,
+    "diferenca": 0.0
+  },
+  {
+    "ano": "2021",
+    "indicador": "215",
+    "soma_municipios": 978541.0,
+    "total_estadual": 978533.0,
+    "diferenca": 8.0
+  },
+  {
+    "ano": "2022",
+    "indicador": "214",
+    "soma_municipios": 1199296.0,
+    "total_estadual": 1199296.0,
+    "diferenca": 0.0
+  },
+  {
+    "ano": "2022",
+    "indicador": "216",
+    "soma_municipios": 35813.0,
+    "total_estadual": 35813.0,
+    "diferenca": 0.0
+  },
+  {
+    "ano": "2022",
+    "indicador": "2313",
+    "soma_municipios": 35943.0,
+    "total_estadual": 35943.0,
+    "diferenca": 0.0
+  },
+  {
+    "ano": "2022",
+    "indicador": "215",
+    "soma_municipios": 1372033.0,
+    "total_estadual": 1372026.0,
+    "diferenca": 7.0
+  },
+  {
+    "ano": "2023",
+    "indicador": "214",
+    "soma_municipios": 1283395.0,
+    "total_estadual": 1283395.0,
+    "diferenca": 0.0
+  },
+  {
+    "ano": "2023",
+    "indicador": "216",
+    "soma_municipios": 38499.0,
+    "total_estadual": 38499.0,
+    "diferenca": 0.0
+  },
+  {
+    "ano": "2023",
+    "indicador": "2313",
+    "soma_municipios": 38707.0,
+    "total_estadual": 38707.0,
+    "diferenca": 0.0
+  },
+  {
+    "ano": "2023",
+    "indicador": "215",
+    "soma_municipios": 1654431.0,
+    "total_estadual": 1654429.0,
+    "diferenca": 2.0
+  },
+  {
+    "ano": "2024",
+    "indicador": "214",
+    "soma_municipios": 1269122.0,
+    "total_estadual": 1269122.0,
+    "diferenca": 0.0
+  },
+  {
+    "ano": "2024",
+    "indicador": "216",
+    "soma_municipios": 39184.0,
+    "total_estadual": 39184.0,
+    "diferenca": 0.0
+  },
+  {
+    "ano": "2024",
+    "indicador": "2313",
+    "soma_municipios": 39236.0,
+    "total_estadual": 39236.0,
+    "diferenca": 0.0
+  },
+  {
+    "ano": "2024",
+    "indicador": "215",
+    "soma_municipios": 1756854.0,
+    "total_estadual": 1756847.0,
+    "diferenca": 7.0
+  }
+]

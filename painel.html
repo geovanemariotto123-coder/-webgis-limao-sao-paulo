@@ -1,0 +1,13 @@
+<aside id="painel" aria-label="Controles do mapa">
+<div class="marca">GEOTERRA SENSORIAMENTO</div><h1>Limão em<br>São Paulo</h1><span class="etiqueta">PANORAMA MUNICIPAL · 2020–2026</span>
+<p>Explore a produção e a área de cultivo nos municípios paulistas.</p>
+<label for="ano">Ano de referência</label><select id="ano"></select>
+<label for="metrica">Indicador</label><select id="metrica"></select>
+<label for="busca">Encontre um município</label><input id="busca" list="municipios" placeholder="Ex.: Pindorama"><datalist id="municipios"></datalist><button id="localizar">Localizar no mapa</button><p id="buscaStatus" aria-live="polite"></p>
+<div id="total"><span>Total estadual · IBGE</span><strong id="numero">—</strong><span id="unidade"></span></div><p id="cobertura"></p>
+<div id="legenda"></div><p class="aviso" id="disponibilidade"></p>
+<h2>10 maiores municípios</h2><p id="rankingNota"></p><ol id="ranking"></ol>
+<a id="baixar" href="#">Baixar dados do ano · CSV</a>
+<details><summary>Fontes e como interpretar</summary><p>Fonte: <a href="https://sidra.ibge.gov.br/tabela/1613" target="_blank" rel="noopener">IBGE · PAM · Tabela 1613</a>. Limites municipais: API de malhas do IBGE, geometria simplificada.</p><p>“Limão” é a categoria do IBGE, sem separação por cultivar. Área destinada à colheita não mede novos plantios. Valor da produção está em mil reais correntes, sem correção da inflação.</p><p>Zero absoluto é preservado como zero. Dados indisponíveis ou sigilosos ficam sem valor. A escala de cores é fixa entre os anos de cada indicador. O ranking considera apenas valores positivos.</p><p id="consulta"></p></details>
+<details><summary>Comercialização e preços</summary><p>Esta versão ainda não incorpora cotações nem volumes comercializados. Valor da produção não é preço de venda. Esses dados precisam de fonte, período, mercado e unidade próprios.</p></details>
+</aside>

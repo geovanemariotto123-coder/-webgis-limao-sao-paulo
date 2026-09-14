@@ -1,0 +1,35 @@
+{
+  "consulta_utc": "2026-09-14T01:07:47.260606+00:00",
+  "anos": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "fontes": [
+    {
+      "arquivo": "metadados.json",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/1613/metadados"
+    },
+    {
+      "arquivo": "periodos.json",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/1613/periodos"
+    },
+    {
+      "arquivo": "municipios.json",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/1613/periodos/2020|2021|2022|2023|2024/variaveis/214|216|2313|215|112?localidades=N6[N3[35]]&classificacao=82[2734]"
+    },
+    {
+      "arquivo": "estado.json",
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/1613/periodos/2020|2021|2022|2023|2024/variaveis/214|216|2313|215|112?localidades=N3[35]&classificacao=82[2734]"
+    },
+    {
+      "arquivo": "malha_sp.geojson",
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/35?formato=application/vnd.geo+json&qualidade=minima&intrarregiao=municipio"
+    }
+  ],
+  "tabela": "https://sidra.ibge.gov.br/tabela/1613",
+  "produto": "Limão (categoria IBGE; não separa cultivares)",
+  "limites": "Área destinada à colheita não mede novos plantios. Valor da produção em mil R$ correntes não é cotação nem volume comercializado."
+}
