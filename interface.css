@@ -1,1 +1,50 @@
-:root{--verde:#153e2c;--lima:#d6ed6d}body{font-family:system-ui,-apple-system,sans-serif!important;color:#213b2b}body>.folium-map{position:fixed!important;left:370px!important;top:0!important;width:calc(100% - 370px)!important;height:100%!important}#painel{position:fixed;left:0;top:0;bottom:0;width:370px;z-index:1000;background:#f7f8f2;overflow:auto;padding:26px;box-sizing:border-box;box-shadow:3px 0 18px #0001}#painel h1{font-size:29px;line-height:1.12;margin:12px 0}#painel h2{font-size:17px;margin:22px 0 10px}#painel p{font-size:13px;line-height:1.55}.marca{letter-spacing:3px;font-size:11px;font-weight:800;color:#42613c}.etiqueta{display:inline-block;background:var(--lima);padding:5px 9px;border-radius:20px;font-size:11px;font-weight:700}label{display:block;margin:14px 0 5px;font-size:12px;font-weight:700}select,input,button{width:100%;padding:10px;border:1px solid #c8d1c4;border-radius:8px;background:white;color:#173825;font-size:14px}button{cursor:pointer;background:var(--verde);color:white;margin-top:8px}#total{background:var(--verde);color:white;padding:16px;border-radius:12px;margin-top:18px}#numero{display:block;font-size:27px;font-weight:700}#unidade,#cobertura{font-size:12px}.aviso{border-left:3px solid #b39b32;padding:0 10px;color:#5b5839}.legenda{font-size:12px;display:flex;gap:5px;align-items:center;margin:8px 0}.chip{width:15px;height:12px;display:inline-block;border:1px solid #8885}#ranking{padding:0;list-style:none;font-size:12px}#ranking button{background:white;color:#213b2b;display:flex;justify-content:space-between;gap:10px;text-align:left;font-size:12px;padding:8px}a{color:#226644}details{font-size:12px;margin-top:18px}summary{cursor:pointer;font-weight:700}#baixar{display:block;text-align:center;background:#d6ed6d;border-radius:8px;padding:10px;text-decoration:none;font-weight:700;font-size:13px;margin-top:18px}.serie{border-collapse:collapse;width:100%;font-size:12px}.serie th,.serie td{padding:5px;border-bottom:1px solid #ddd;text-align:right}.serie th:first-child,.serie td:first-child{text-align:left}.leaflet-popup-content{max-height:320px;overflow:auto}.leaflet-control-attribution{font-size:10px!important}@media(max-width:700px){#painel{top:55%;width:100%;padding:18px;box-shadow:0 -3px 15px #0002}body>.folium-map{left:0!important;width:100%!important;height:55%!important}#painel h1{font-size:24px}#painel h2{margin-top:16px}}
+:root{--verde:#123e32;--lima:#d6ed6d;--borda:#dbe4dc;--muted:#53685e}
+body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif!important;color:#203d30}
+body>.folium-map{position:fixed!important;left:410px!important;top:0!important;width:calc(100% - 410px)!important;height:100%!important}
+#painel{position:fixed;inset:0 auto 0 0;width:410px;z-index:1000;background:#f4f7f2;display:flex;flex-direction:column;box-shadow:3px 0 20px #122f2520;font-size:14px;line-height:1.5;overflow:hidden}
+#painel *{box-sizing:border-box}#painel [hidden]{display:none!important}
+#painel .cabecalho{padding:22px 24px 18px;background:var(--verde);color:white}
+#painel .marca{font-size:10px;font-weight:800;letter-spacing:2.5px;color:var(--lima)}
+#painel h1{font-size:29px;font-weight:750;letter-spacing:-1px;line-height:1.15;margin:10px 0 14px;color:inherit}
+#painel h1 span{display:block;font-size:13px;letter-spacing:0;font-weight:400;color:#cdded2;margin-top:7px}
+#painel .etiqueta{display:inline-block;background:#ffffff12;border:1px solid #ffffff25;color:#e5f2cd;padding:4px 8px;border-radius:5px;font-size:10px;letter-spacing:.7px}
+#painel .filtros{padding:12px 24px;background:white;border-bottom:1px solid var(--borda)}
+#painel .dupla{display:grid;grid-template-columns:115px minmax(0,1fr);gap:10px}
+#painel label{display:block;margin:0 0 5px;font-size:11px;font-weight:750;color:var(--muted)}
+#painel .filtros>label{margin-top:10px}
+#painel select,#painel input,#painel button{font:inherit;border-radius:8px;border:1px solid #bfcec3;min-height:40px;width:100%;padding:8px 10px;background:white;color:#173d2d}
+#painel select{font-size:12px}#painel button{cursor:pointer;font-weight:650}#painel button:hover{background:#edf4e8}
+#painel :is(button,input,select,a):focus-visible{outline:3px solid #629641;outline-offset:2px}
+#painel .buscar{display:grid;grid-template-columns:minmax(0,1fr) 85px;gap:8px}
+#painel #localizar{background:var(--verde);color:white;border-color:var(--verde);font-size:12px}
+#painel #buscaStatus{margin:4px 0 0;color:#8b3420;font-size:12px}#painel #buscaStatus:empty{display:none}
+#painel .abas{display:grid;grid-template-columns:repeat(4,1fr);padding:0 14px;background:white;border-bottom:1px solid var(--borda)}
+#painel .abas button{border:0;border-radius:0;padding:12px 2px;font-size:11px;min-height:44px;border-bottom:3px solid transparent;color:var(--muted)}
+#painel .abas button[aria-pressed=true]{border-bottom-color:#477b34;color:var(--verde);background:#f4f8ee}
+#painel .conteudo{flex:1;overflow:auto;min-height:0;padding:18px 24px;scrollbar-width:thin}
+#painel h2{font-size:16px;font-weight:750;margin:0 0 10px;color:var(--verde)}#painel h3{font-size:15px;font-weight:750;margin:8px 0;color:var(--verde)}
+#painel p{font-size:12px;line-height:1.65;margin:8px 0}#painel .nota,#painel #cobertura{font-size:11px;color:var(--muted)}
+#painel #total{background:var(--verde);border-radius:14px;padding:18px 20px;color:white}
+#painel #escopoTotal{font-size:11px;color:#d3e3d7}#painel #numero{display:block;font-size:34px;font-weight:750;letter-spacing:-1px;line-height:1.4;font-variant-numeric:tabular-nums}
+#painel #unidade{font-size:12px}#painel #variacao{border-top:1px solid #ffffff25;padding-top:8px;color:#dfebd0;font-size:11px}
+#painel .cartao{border:1px solid var(--borda);border-radius:12px;background:white;padding:16px;margin:14px 0}
+#painel .legenda{display:flex;align-items:center;gap:8px;font-size:11px;margin:7px 0}
+#painel .chip{display:inline-block;width:20px;height:12px;border:1px solid #52665a66;border-radius:3px;flex-shrink:0}
+#painel #legenda>b{display:block;font-size:12px;margin-bottom:10px}
+#painel #opacidade{accent-color:#326644;padding:0;min-height:26px;border:0}#painel output{float:right;color:#2d563f}
+#painel .secundario{background:white;border-color:var(--borda);font-size:12px}
+#painel .aviso{border-left:3px solid #b3bd62;background:#eef1df;padding:10px;font-size:11px;color:#4e5932}
+#painel #ranking{padding:0;margin:10px 0;list-style:none}
+#painel #ranking button{position:relative;overflow:hidden;display:flex;justify-content:space-between;align-items:center;gap:10px;text-align:left;font-size:12px;margin:6px 0;padding:12px;border-color:var(--borda);background:linear-gradient(90deg,#e7efdb var(--barra,0%),white var(--barra,0%))}
+#painel #ranking strong{font-variant-numeric:tabular-nums;white-space:nowrap}
+#painel .rodape{padding:12px 24px 10px;background:white;border-top:1px solid var(--borda)}
+#painel #baixar{display:block;text-align:center;background:var(--lima);color:#19372a!important;border:1px solid #becf62;border-radius:9px;padding:11px;text-decoration:none;font-size:12px;font-weight:750}
+#painel .rodape>span{display:block;text-align:center;font-size:10px;color:var(--muted);margin-top:5px}
+#painel a{color:#245e3a}#painel .status{font-size:9px;letter-spacing:.7px;font-weight:750;color:#766019}
+#painel .mercado{background:#fbfaee}#painel .linhaTitulo{display:flex;align-items:center;justify-content:space-between;gap:8px}
+#painel #serieEstado{width:auto;min-height:32px;white-space:nowrap;font-size:10px}
+#painel #grafico svg{display:block;width:100%;height:auto;background:white;border:1px solid var(--borda);border-radius:10px;margin:12px 0}
+.serie{border-collapse:collapse;width:100%;font-size:12px}.serie th,.serie td{padding:7px 5px;border-bottom:1px solid #dae1d8;text-align:right;font-variant-numeric:tabular-nums}.serie th:first-child,.serie td:first-child{text-align:left}
+.leaflet-popup-content{max-height:300px;overflow:auto}.leaflet-tooltip{font-family:system-ui,sans-serif;font-size:12px;background:#fffffff5;border-color:#aac3ae;color:#173d2d}.leaflet-control-attribution{font-size:10px!important}
+@media(max-height:780px) and (min-width:761px){#painel .cabecalho{padding:14px 24px 12px}#painel h1{font-size:25px;margin:8px 0}#painel h1 span{display:none}}
+@media(max-width:760px){body>.folium-map{left:0!important;top:0!important;width:100%!important;height:44%!important}#painel{top:44%;bottom:0;width:100%;border-radius:16px 16px 0 0}#painel .cabecalho{padding:10px 16px}#painel .marca,#painel .etiqueta,#painel h1 span{display:none}#painel h1{font-size:20px;letter-spacing:-.4px;margin:0}#painel .filtros{padding:8px 16px}#painel .dupla{grid-template-columns:110px minmax(0,1fr)}#painel .conteudo{padding:14px 16px}#painel .rodape{padding:7px 16px}#painel .rodape>span{display:none}#painel .abas button{padding:7px 2px;min-height:36px}}
