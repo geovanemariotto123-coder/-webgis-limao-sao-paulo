@@ -71,3 +71,5 @@ body>.folium-map{position:fixed!important;left:410px!important;top:0!important;w
 #painel #mercadoDelta{color:#31533d;font-size:12px}
 #painel .mercado-detalhes{margin:18px 0;font-size:12px}
 #painel .mercado-detalhes summary{cursor:pointer;font-weight:700}
+
+#painel .rodape>.criador{display:block;font-size:11px;color:#385342;margin-top:6px;text-align:center}
