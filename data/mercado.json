@@ -1,6 +1,6 @@
 {
   "cobertura": "Registros selecionados de 2025 e 2026. Não é uma série contínua de 2020–2026 nem cotação em tempo real.",
-  "consulta": "2026-09-14",
+  "consulta": "2026-09-21",
   "mercados": {
     "ceagesp": {
       "local": "Atacado · Entreposto Terminal São Paulo",
@@ -118,6 +118,32 @@
       "publicacao": "2025-02-10",
       "unidade": "R$/kg",
       "valor": 2.34
+    },
+    {
+      "id": "hf-set11",
+      "inicio": "2026-09-08",
+      "fim": "2026-09-11",
+      "periodo": "08–11/09/2026",
+      "frequencia": "semanal",
+      "valor": 164.83,
+      "mercado": "hf",
+      "peso_kg": 27.2,
+      "unidade": "R$/caixa de 27,2 kg",
+      "publicacao": "2026-09-11",
+      "fonte": "https://www.hfbrasil.org.br/br/citros-cepea-exportacoes-de-suco-perdem-folego-no-inicio-da-safra-2026-27.aspx"
+    },
+    {
+      "id": "hf-set18",
+      "inicio": "2026-09-14",
+      "fim": "2026-09-18",
+      "periodo": "14–18/09/2026",
+      "frequencia": "semanal",
+      "valor": 148.65,
+      "mercado": "hf",
+      "peso_kg": 27.2,
+      "unidade": "R$/caixa de 27,2 kg",
+      "publicacao": "2026-09-18",
+      "fonte": "https://www.hfbrasil.org.br/br/citros-cepea-chuvas-favorecem-pomares-mas-elevam-preocupacao-com-doencas.aspx"
     }
   ],
   "volumes": {
