@@ -22,12 +22,12 @@ A presença do arquivo no repositório não confirma que o Pages foi ativado.
 ## Conteúdo
 
 - 645 municípios na malha IBGE simplificada.
-- Série PAM 2020–2024 consultada em 14/09/2026. 2025 e 2026 não publicados nessa consulta.
+- Série PAM 2020–2025 consultada em 26/09/2026. O ano de 2026 ainda não está disponível na PAM.
 - Produção (t), área destinada à colheita (ha), área colhida (ha), rendimento (kg/ha) e valor da produção (mil R$ correntes).
 - Busca, ranking, série municipal no clique, escala comparável entre anos e CSV do ano selecionado.
 
 Fonte: https://sidra.ibge.gov.br/tabela/1613. Endereços exatos e data da coleta em `data/fontes.json`. Respostas originais preservadas em `data/`. A geometria atual é usada para todos os anos; não representa alterações históricas dos limites. Ausências não são convertidas em zero; o símbolo SIDRA `-` é zero absoluto. Dados monetários podem apresentar diferenças de arredondamento entre soma municipal e total estadual; `data/validacao.json` registra a comparação.
 
-“Limão” é a categoria da PAM e não separa Tahiti, Siciliano e outros tipos. Área destinada à colheita não mede novos plantios. Valor da produção não é preço de venda nem volume comercializado. **Cotações e comercialização ainda não estão integradas.**
+“Limão” é a categoria da PAM e não separa Tahiti, Siciliano e outros tipos. Área destinada à colheita não mede novos plantios. Valor da produção não é preço de venda nem volume comercializado. Há registros selecionados de preços da CEAGESP e do Hortifruti Brasil/Cepea em uma seção separada. Eles não formam uma série contínua nem medem o volume comercializado, que ainda não está integrado.
 
 O HTML usa Leaflet/Folium e mapa-base OpenStreetMap, com recursos externos; precisa de conexão para carregar essas dependências. O recorte municipal e a série de dados estão incorporados no HTML.

@@ -1,11 +1,12 @@
 {
-  "consulta_utc": "2026-09-14T01:07:47.260606+00:00",
+  "consulta_utc": "2026-09-26T19:22:41.755693+00:00",
   "anos": [
     2020,
     2021,
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "fontes": [
     {
@@ -18,11 +19,11 @@
     },
     {
       "arquivo": "municipios.json",
-      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/1613/periodos/2020|2021|2022|2023|2024/variaveis/214|216|2313|215|112?localidades=N6[N3[35]]&classificacao=82[2734]"
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/1613/periodos/2020|2021|2022|2023|2024|2025/variaveis/214|216|2313|215|112?localidades=N6[N3[35]]&classificacao=82[2734]"
     },
     {
       "arquivo": "estado.json",
-      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/1613/periodos/2020|2021|2022|2023|2024/variaveis/214|216|2313|215|112?localidades=N3[35]&classificacao=82[2734]"
+      "url": "https://servicodados.ibge.gov.br/api/v3/agregados/1613/periodos/2020|2021|2022|2023|2024|2025/variaveis/214|216|2313|215|112?localidades=N3[35]&classificacao=82[2734]"
     },
     {
       "arquivo": "malha_sp.geojson",

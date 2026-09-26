@@ -138,5 +138,33 @@
     "soma_municipios": 1756854.0,
     "total_estadual": 1756847.0,
     "diferenca": 7.0
+  },
+  {
+    "ano": "2025",
+    "indicador": "214",
+    "soma_municipios": 1382900.0,
+    "total_estadual": 1382900.0,
+    "diferenca": 0.0
+  },
+  {
+    "ano": "2025",
+    "indicador": "216",
+    "soma_municipios": 41922.0,
+    "total_estadual": 41922.0,
+    "diferenca": 0.0
+  },
+  {
+    "ano": "2025",
+    "indicador": "2313",
+    "soma_municipios": 41994.0,
+    "total_estadual": 41994.0,
+    "diferenca": 0.0
+  },
+  {
+    "ano": "2025",
+    "indicador": "215",
+    "soma_municipios": 1852643.0,
+    "total_estadual": 1852639.0,
+    "diferenca": 4.0
   }
 ]
