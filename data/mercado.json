@@ -1,6 +1,6 @@
 {
   "cobertura": "Registros selecionados de 2025 e 2026. Não é uma série contínua de 2020–2026 nem cotação em tempo real.",
-  "consulta": "2026-09-21",
+  "consulta": "2026-09-29",
   "mercados": {
     "ceagesp": {
       "local": "Atacado · Entreposto Terminal São Paulo",
@@ -144,6 +144,19 @@
       "unidade": "R$/caixa de 27,2 kg",
       "publicacao": "2026-09-18",
       "fonte": "https://www.hfbrasil.org.br/br/citros-cepea-chuvas-favorecem-pomares-mas-elevam-preocupacao-com-doencas.aspx"
+    },
+    {
+      "id": "hf-set25",
+      "inicio": "2026-09-21",
+      "fim": "2026-09-25",
+      "periodo": "21–25/09/2026",
+      "frequencia": "semanal",
+      "valor": 105.91,
+      "mercado": "hf",
+      "peso_kg": 27.2,
+      "unidade": "R$/caixa de 27,2 kg",
+      "publicacao": "2026-09-25",
+      "fonte": "https://www.hfbrasil.org.br/br/citros-cepea-maior-oferta-pressiona-valor-da-tahiti-mas-patamar-segue-elevado.aspx"
     }
   ],
   "volumes": {
