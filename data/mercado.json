@@ -1,6 +1,6 @@
 {
   "cobertura": "Registros selecionados de 2025 e 2026. Não é uma série contínua de 2020–2026 nem cotação em tempo real.",
-  "consulta": "2026-09-29",
+  "consulta": "2026-10-05",
   "mercados": {
     "ceagesp": {
       "local": "Atacado · Entreposto Terminal São Paulo",
@@ -157,6 +157,19 @@
       "unidade": "R$/caixa de 27,2 kg",
       "publicacao": "2026-09-25",
       "fonte": "https://www.hfbrasil.org.br/br/citros-cepea-maior-oferta-pressiona-valor-da-tahiti-mas-patamar-segue-elevado.aspx"
+    },
+    {
+      "id": "hf-out02",
+      "inicio": "2026-09-28",
+      "fim": "2026-10-02",
+      "periodo": "28/09–02/10/2026",
+      "frequencia": "semanal",
+      "valor": 101.89,
+      "mercado": "hf",
+      "peso_kg": 27.2,
+      "unidade": "R$/caixa de 27,2 kg",
+      "publicacao": "2026-10-02",
+      "fonte": "https://www.hfbrasil.org.br/br/citros-cepea-laranja-encerra-setembro-com-precos-em-queda-na-mesa-e-na-industria.aspx"
     }
   ],
   "volumes": {
