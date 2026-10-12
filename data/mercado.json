@@ -1,6 +1,6 @@
 {
   "cobertura": "Registros selecionados de 2025 e 2026. Não é uma série contínua de 2020–2026 nem cotação em tempo real.",
-  "consulta": "2026-10-05",
+  "consulta": "2026-10-12",
   "mercados": {
     "ceagesp": {
       "local": "Atacado · Entreposto Terminal São Paulo",
@@ -170,10 +170,39 @@
       "unidade": "R$/caixa de 27,2 kg",
       "publicacao": "2026-10-02",
       "fonte": "https://www.hfbrasil.org.br/br/citros-cepea-laranja-encerra-setembro-com-precos-em-queda-na-mesa-e-na-industria.aspx"
+    },
+    {
+      "id": "hf-out09",
+      "inicio": "2026-10-05",
+      "fim": "2026-10-09",
+      "periodo": "05–09/10/2026",
+      "frequencia": "semanal",
+      "valor": 130.74,
+      "mercado": "hf",
+      "peso_kg": 27.2,
+      "unidade": "R$/caixa de 27,2 kg",
+      "publicacao": "2026-10-09",
+      "fonte": "https://www.hfbrasil.org.br/br/citros-cepea-exportacoes-de-suco-se-recuperam-em-setembro-desempenho-melhora-no-3-tri.aspx"
     }
   ],
   "volumes": {
     "nota": "Volumes comercializados no estado e no ETSP ainda não foram integrados. Produção municipal da PAM não substitui esse volume.",
     "status": "nao_integrados"
-  }
+  },
+  "observacoes": [
+    {
+      "id": "ceagesp-out09-tendencia",
+      "inicio": "2026-10-05",
+      "fim": "2026-10-09",
+      "periodo": "05–09/10/2026",
+      "frequencia": "semanal",
+      "mercado": "ceagesp",
+      "tipo": "tendência de compra",
+      "valor": "desfavorável",
+      "unidade_original": "não se aplica — publicação sem cotação numérica",
+      "peso_embalagem_kg": null,
+      "publicacao": "2026-10-06",
+      "fonte": "https://ceagesp.gov.br/entrepostos/servicos/dicas-da-semana/2026-semana-41/"
+    }
+  ]
 }
