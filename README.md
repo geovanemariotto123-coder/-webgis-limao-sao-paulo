@@ -41,3 +41,11 @@ O coletor valida produto, região, unidade, datas e valores. Ausências não vir
 Execução local: `python atualizar_mercado.py` e `python gerar.py`. Testes: `python -m unittest discover -s tests`.
 
 Dados regionais: Hortifruti/Cepea, licença CC BY-NC 4.0, para divulgação educativa não comercial. As cotações diárias regionais em caixa de 27 kg ficam separadas das notícias históricas de médias semanais em caixa de 27,2 kg.
+
+## CEAGESP e CEASA Campinas
+
+A rotina automática também consulta o formulário público da CEAGESP para FRUTAS, usando as últimas três datas disponibilizadas no calendário do próprio portal. Apenas Limão Taiti em KG é importado, com classificação, mínimo, mais comum e máximo. O valor principal no painel é o mais comum.
+
+Para Campinas, busca o PDF mais recente ligado no portal oficial, confere a data interna e importa Tahiti por classificação. Se o boletim não estiver acessível, consulta a republicação do Notícias Agrícolas. Essa origem intermediária fica explícita no painel e no CSV, sem inventar mínimo/máximo. Um registro oficial tem prioridade sobre uma republicação da mesma data e classe.
+
+Falhas de cada central são registradas separadamente, preservando os dados anteriores. O sucesso de uma central não depende do sucesso das outras. Não se misturam os preços das classes nem se calcula uma média entre Cepea, CEAGESP e Campinas.

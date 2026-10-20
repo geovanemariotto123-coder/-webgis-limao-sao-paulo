@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['atualizar_mercado.py', 'gerar.py', 'interface.js', 'painel.html', 'requirements.txt', '.github/workflows/atualizar-mercado.yml']
+    paths: ['atualizar_mercado.py', 'atualizar_centrais.py', 'gerar.py', 'interface.js', 'painel.html', 'requirements.txt', '.github/workflows/atualizar-mercado.yml']
 permissions:
   contents: write
   pages: write
@@ -28,6 +28,10 @@ jobs:
         id: coleta
         continue-on-error: true
         run: python atualizar_mercado.py
+      - name: Consultar CEAGESP e CEASA Campinas
+        id: centrais
+        continue-on-error: true
+        run: python atualizar_centrais.py
       - name: Gerar página com os últimos dados válidos
         run: python gerar.py
       - name: Salvar atualização no repositório
@@ -49,7 +53,7 @@ jobs:
       - name: Publicar no GitHub Pages
         uses: actions/deploy-pages@v4
       - name: Avisar quando a coleta falhar
-        if: steps.coleta.outcome == 'failure'
+        if: steps.coleta.outcome == 'failure' || steps.centrais.outcome == 'failure'
         run: |
           echo '::error::A fonte não respondeu ou mudou o formato. Histórico preservado; confira a data no painel.'
           exit 1

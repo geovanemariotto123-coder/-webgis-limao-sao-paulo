@@ -26,6 +26,48 @@
       "nome": "Hortifruti Brasil/Cepea",
       "local": "Mogiana (região) · Tahiti colhida",
       "nota": "Referência regional publicada pelo Cepea, para fruta colhida. Regiões, datas e pesos diferentes não são diretamente comparáveis. Uso educativo não comercial; fonte: Hortifruti/Cepea, CC BY-NC 4.0."
+    },
+    "ceagesp-15-a-18-dz": {
+      "nome": "CEAGESP · São Paulo",
+      "local": "Tahiti · 15 A 18 DZ",
+      "nota": "Preço de venda no atacado; não é preço pago ao produtor. As classificações das centrais não são equivalentes.",
+      "atualizacao_chave": "ceagesp",
+      "central": "ceagesp"
+    },
+    "ceagesp-21-a-27-dz": {
+      "nome": "CEAGESP · São Paulo",
+      "local": "Tahiti · 21 A 27 DZ",
+      "nota": "Preço de venda no atacado; não é preço pago ao produtor. As classificações das centrais não são equivalentes.",
+      "atualizacao_chave": "ceagesp",
+      "central": "ceagesp"
+    },
+    "ceagesp-acima-de-31-dz": {
+      "nome": "CEAGESP · São Paulo",
+      "local": "Tahiti · ACIMA DE 31 DZ",
+      "nota": "Preço de venda no atacado; não é preço pago ao produtor. As classificações das centrais não são equivalentes.",
+      "atualizacao_chave": "ceagesp",
+      "central": "ceagesp"
+    },
+    "campinas-extra": {
+      "nome": "CEASA Campinas",
+      "local": "Tahiti · Extra",
+      "nota": "Preço de venda no atacado; não é preço pago ao produtor. As classificações das centrais não são equivalentes.",
+      "atualizacao_chave": "campinas",
+      "central": "campinas"
+    },
+    "campinas-especial": {
+      "nome": "CEASA Campinas",
+      "local": "Tahiti · Especial",
+      "nota": "Preço de venda no atacado; não é preço pago ao produtor. As classificações das centrais não são equivalentes.",
+      "atualizacao_chave": "campinas",
+      "central": "campinas"
+    },
+    "campinas-primeira": {
+      "nome": "CEASA Campinas",
+      "local": "Tahiti · Primeira",
+      "nota": "Preço de venda no atacado; não é preço pago ao produtor. As classificações das centrais não são equivalentes.",
+      "atualizacao_chave": "campinas",
+      "central": "campinas"
     }
   },
   "produto": "Lima ácida Tahiti (limão taiti)",
@@ -330,6 +372,114 @@
       "fonte": "https://hfbrasil.org.br/citros"
     },
     {
+      "id": "campinas-especial-2026-10-19",
+      "mercado": "campinas-especial",
+      "inicio": "2026-10-19",
+      "fim": "2026-10-19",
+      "periodo": "19/10/2026",
+      "frequencia": "diária",
+      "valor": 7.25,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-19",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Especial",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "campinas-extra-2026-10-19",
+      "mercado": "campinas-extra",
+      "inicio": "2026-10-19",
+      "fim": "2026-10-19",
+      "periodo": "19/10/2026",
+      "frequencia": "diária",
+      "valor": 9.5,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-19",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Extra",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "campinas-primeira-2026-10-19",
+      "mercado": "campinas-primeira",
+      "inicio": "2026-10-19",
+      "fim": "2026-10-19",
+      "periodo": "19/10/2026",
+      "frequencia": "diária",
+      "valor": 4.5,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-19",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Primeira",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "ceagesp-15-a-18-dz-2026-10-19",
+      "mercado": "ceagesp-15-a-18-dz",
+      "inicio": "2026-10-19",
+      "fim": "2026-10-19",
+      "periodo": "19/10/2026",
+      "frequencia": "diária",
+      "valor": 8.47,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-19",
+      "fonte": "https://ceagesp.gov.br/cotacoes/",
+      "classificacao": "15 A 18 DZ",
+      "central": "ceagesp",
+      "tipo_preco": "mais comum",
+      "origem": "CEAGESP",
+      "valor_minimo": 8.1,
+      "valor_maximo": 8.85
+    },
+    {
+      "id": "ceagesp-21-a-27-dz-2026-10-19",
+      "mercado": "ceagesp-21-a-27-dz",
+      "inicio": "2026-10-19",
+      "fim": "2026-10-19",
+      "periodo": "19/10/2026",
+      "frequencia": "diária",
+      "valor": 6.9,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-19",
+      "fonte": "https://ceagesp.gov.br/cotacoes/",
+      "classificacao": "21 A 27 DZ",
+      "central": "ceagesp",
+      "tipo_preco": "mais comum",
+      "origem": "CEAGESP",
+      "valor_minimo": 6.52,
+      "valor_maximo": 7.28
+    },
+    {
+      "id": "ceagesp-acima-de-31-dz-2026-10-19",
+      "mercado": "ceagesp-acima-de-31-dz",
+      "inicio": "2026-10-19",
+      "fim": "2026-10-19",
+      "periodo": "19/10/2026",
+      "frequencia": "diária",
+      "valor": 5.62,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-19",
+      "fonte": "https://ceagesp.gov.br/cotacoes/",
+      "classificacao": "ACIMA DE 31 DZ",
+      "central": "ceagesp",
+      "tipo_preco": "mais comum",
+      "origem": "CEAGESP",
+      "valor_minimo": 5.33,
+      "valor_maximo": 5.91
+    },
+    {
       "id": "hf-araraquara-2026-10-19",
       "inicio": "2026-10-19",
       "fim": "2026-10-19",
@@ -394,5 +544,17 @@
     "ultima_cotacao": "2026-10-19",
     "fonte": "https://hfbrasil.org.br/citros",
     "status": "ok"
+  },
+  "atualizacoes": {
+    "ceagesp": {
+      "status": "ok",
+      "verificado_em": "2026-10-20T14:26:23.731194+00:00",
+      "ultima_cotacao": "2026-10-19"
+    },
+    "campinas": {
+      "status": "ok",
+      "verificado_em": "2026-10-20T14:26:23.731251+00:00",
+      "ultima_cotacao": "2026-10-19"
+    }
   }
 }
