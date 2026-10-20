@@ -207,7 +207,7 @@
       "frequencia": "diária",
       "valor": 153.54,
       "mercado": "hf-araraquara",
-      "peso_kg": 27,
+      "peso_kg": 27.0,
       "unidade": "R$/caixa de 27 kg",
       "publicacao": "2026-10-13",
       "fonte": "https://hfbrasil.org.br/citros"
@@ -218,9 +218,9 @@
       "fim": "2026-10-13",
       "periodo": "13/10/2026",
       "frequencia": "diária",
-      "valor": 155,
+      "valor": 155.0,
       "mercado": "hf-bebedouro",
-      "peso_kg": 27,
+      "peso_kg": 27.0,
       "unidade": "R$/caixa de 27 kg",
       "publicacao": "2026-10-13",
       "fonte": "https://hfbrasil.org.br/citros"
@@ -233,7 +233,7 @@
       "frequencia": "diária",
       "valor": 156.46,
       "mercado": "hf-araraquara",
-      "peso_kg": 27,
+      "peso_kg": 27.0,
       "unidade": "R$/caixa de 27 kg",
       "publicacao": "2026-10-14",
       "fonte": "https://hfbrasil.org.br/citros"
@@ -244,9 +244,9 @@
       "fim": "2026-10-14",
       "periodo": "14/10/2026",
       "frequencia": "diária",
-      "valor": 155,
+      "valor": 155.0,
       "mercado": "hf-bebedouro",
-      "peso_kg": 27,
+      "peso_kg": 27.0,
       "unidade": "R$/caixa de 27 kg",
       "publicacao": "2026-10-14",
       "fonte": "https://hfbrasil.org.br/citros"
@@ -259,7 +259,7 @@
       "frequencia": "diária",
       "valor": 155.03,
       "mercado": "hf-araraquara",
-      "peso_kg": 27,
+      "peso_kg": 27.0,
       "unidade": "R$/caixa de 27 kg",
       "publicacao": "2026-10-15",
       "fonte": "https://hfbrasil.org.br/citros"
@@ -270,9 +270,9 @@
       "fim": "2026-10-15",
       "periodo": "15/10/2026",
       "frequencia": "diária",
-      "valor": 155,
+      "valor": 155.0,
       "mercado": "hf-bebedouro",
-      "peso_kg": 27,
+      "peso_kg": 27.0,
       "unidade": "R$/caixa de 27 kg",
       "publicacao": "2026-10-15",
       "fonte": "https://hfbrasil.org.br/citros"
@@ -283,9 +283,9 @@
       "fim": "2026-10-15",
       "periodo": "15/10/2026",
       "frequencia": "diária",
-      "valor": 180,
+      "valor": 180.0,
       "mercado": "hf-mogiana",
-      "peso_kg": 27,
+      "peso_kg": 27.0,
       "unidade": "R$/caixa de 27 kg",
       "publicacao": "2026-10-15",
       "fonte": "https://hfbrasil.org.br/citros"
@@ -298,7 +298,7 @@
       "frequencia": "diária",
       "valor": 156.07,
       "mercado": "hf-araraquara",
-      "peso_kg": 27,
+      "peso_kg": 27.0,
       "unidade": "R$/caixa de 27 kg",
       "publicacao": "2026-10-16",
       "fonte": "https://hfbrasil.org.br/citros"
@@ -309,9 +309,9 @@
       "fim": "2026-10-16",
       "periodo": "16/10/2026",
       "frequencia": "diária",
-      "valor": 155,
+      "valor": 155.0,
       "mercado": "hf-bebedouro",
-      "peso_kg": 27,
+      "peso_kg": 27.0,
       "unidade": "R$/caixa de 27 kg",
       "publicacao": "2026-10-16",
       "fonte": "https://hfbrasil.org.br/citros"
@@ -322,9 +322,9 @@
       "fim": "2026-10-16",
       "periodo": "16/10/2026",
       "frequencia": "diária",
-      "valor": 180,
+      "valor": 180.0,
       "mercado": "hf-mogiana",
-      "peso_kg": 27,
+      "peso_kg": 27.0,
       "unidade": "R$/caixa de 27 kg",
       "publicacao": "2026-10-16",
       "fonte": "https://hfbrasil.org.br/citros"
@@ -337,7 +337,7 @@
       "frequencia": "diária",
       "valor": 156.89,
       "mercado": "hf-araraquara",
-      "peso_kg": 27,
+      "peso_kg": 27.0,
       "unidade": "R$/caixa de 27 kg",
       "publicacao": "2026-10-19",
       "fonte": "https://hfbrasil.org.br/citros"
@@ -348,9 +348,9 @@
       "fim": "2026-10-19",
       "periodo": "19/10/2026",
       "frequencia": "diária",
-      "valor": 155,
+      "valor": 155.0,
       "mercado": "hf-bebedouro",
-      "peso_kg": 27,
+      "peso_kg": 27.0,
       "unidade": "R$/caixa de 27 kg",
       "publicacao": "2026-10-19",
       "fonte": "https://hfbrasil.org.br/citros"
@@ -361,9 +361,9 @@
       "fim": "2026-10-19",
       "periodo": "19/10/2026",
       "frequencia": "diária",
-      "valor": 180,
+      "valor": 180.0,
       "mercado": "hf-mogiana",
-      "peso_kg": 27,
+      "peso_kg": 27.0,
       "unidade": "R$/caixa de 27 kg",
       "publicacao": "2026-10-19",
       "fonte": "https://hfbrasil.org.br/citros"
@@ -390,10 +390,9 @@
     }
   ],
   "atualizacao_hf": {
-    "verificado_em": "2026-10-20T14:17:47.784138+00:00",
+    "verificado_em": "2026-10-20T14:20:08.933644+00:00",
     "ultima_cotacao": "2026-10-19",
     "fonte": "https://hfbrasil.org.br/citros",
-    "status": "ok",
-    "metodo": "Conferência inicial da tabela oficial; próximas consultas pelo workflow."
+    "status": "ok"
   }
 }
