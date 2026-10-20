@@ -268,6 +268,63 @@
       "fonte": "https://hfbrasil.org.br/citros"
     },
     {
+      "id": "ceagesp-15-a-18-dz-2026-10-14",
+      "mercado": "ceagesp-15-a-18-dz",
+      "inicio": "2026-10-14",
+      "fim": "2026-10-14",
+      "periodo": "14/10/2026",
+      "frequencia": "diária",
+      "valor": 8.28,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-14",
+      "fonte": "https://ceagesp.gov.br/cotacoes/",
+      "classificacao": "15 A 18 DZ",
+      "central": "ceagesp",
+      "tipo_preco": "mais comum",
+      "origem": "CEAGESP",
+      "valor_minimo": 7.9,
+      "valor_maximo": 8.67
+    },
+    {
+      "id": "ceagesp-21-a-27-dz-2026-10-14",
+      "mercado": "ceagesp-21-a-27-dz",
+      "inicio": "2026-10-14",
+      "fim": "2026-10-14",
+      "periodo": "14/10/2026",
+      "frequencia": "diária",
+      "valor": 6.8,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-14",
+      "fonte": "https://ceagesp.gov.br/cotacoes/",
+      "classificacao": "21 A 27 DZ",
+      "central": "ceagesp",
+      "tipo_preco": "mais comum",
+      "origem": "CEAGESP",
+      "valor_minimo": 6.42,
+      "valor_maximo": 7.17
+    },
+    {
+      "id": "ceagesp-acima-de-31-dz-2026-10-14",
+      "mercado": "ceagesp-acima-de-31-dz",
+      "inicio": "2026-10-14",
+      "fim": "2026-10-14",
+      "periodo": "14/10/2026",
+      "frequencia": "diária",
+      "valor": 5.65,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-14",
+      "fonte": "https://ceagesp.gov.br/cotacoes/",
+      "classificacao": "ACIMA DE 31 DZ",
+      "central": "ceagesp",
+      "tipo_preco": "mais comum",
+      "origem": "CEAGESP",
+      "valor_minimo": 5.33,
+      "valor_maximo": 5.95
+    },
+    {
       "id": "hf-araraquara-2026-10-14",
       "inicio": "2026-10-14",
       "fim": "2026-10-14",
@@ -331,6 +388,63 @@
       "unidade": "R$/caixa de 27 kg",
       "publicacao": "2026-10-15",
       "fonte": "https://hfbrasil.org.br/citros"
+    },
+    {
+      "id": "ceagesp-15-a-18-dz-2026-10-16",
+      "mercado": "ceagesp-15-a-18-dz",
+      "inicio": "2026-10-16",
+      "fim": "2026-10-16",
+      "periodo": "16/10/2026",
+      "frequencia": "diária",
+      "valor": 8.47,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-16",
+      "fonte": "https://ceagesp.gov.br/cotacoes/",
+      "classificacao": "15 A 18 DZ",
+      "central": "ceagesp",
+      "tipo_preco": "mais comum",
+      "origem": "CEAGESP",
+      "valor_minimo": 8.1,
+      "valor_maximo": 8.85
+    },
+    {
+      "id": "ceagesp-21-a-27-dz-2026-10-16",
+      "mercado": "ceagesp-21-a-27-dz",
+      "inicio": "2026-10-16",
+      "fim": "2026-10-16",
+      "periodo": "16/10/2026",
+      "frequencia": "diária",
+      "valor": 6.9,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-16",
+      "fonte": "https://ceagesp.gov.br/cotacoes/",
+      "classificacao": "21 A 27 DZ",
+      "central": "ceagesp",
+      "tipo_preco": "mais comum",
+      "origem": "CEAGESP",
+      "valor_minimo": 6.52,
+      "valor_maximo": 7.28
+    },
+    {
+      "id": "ceagesp-acima-de-31-dz-2026-10-16",
+      "mercado": "ceagesp-acima-de-31-dz",
+      "inicio": "2026-10-16",
+      "fim": "2026-10-16",
+      "periodo": "16/10/2026",
+      "frequencia": "diária",
+      "valor": 5.62,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-16",
+      "fonte": "https://ceagesp.gov.br/cotacoes/",
+      "classificacao": "ACIMA DE 31 DZ",
+      "central": "ceagesp",
+      "tipo_preco": "mais comum",
+      "origem": "CEAGESP",
+      "valor_minimo": 5.33,
+      "valor_maximo": 5.91
     },
     {
       "id": "hf-araraquara-2026-10-16",
@@ -540,7 +654,7 @@
     }
   ],
   "atualizacao_hf": {
-    "verificado_em": "2026-10-20T14:20:08.933644+00:00",
+    "verificado_em": "2026-10-20T14:28:56.957146+00:00",
     "ultima_cotacao": "2026-10-19",
     "fonte": "https://hfbrasil.org.br/citros",
     "status": "ok"
@@ -548,12 +662,12 @@
   "atualizacoes": {
     "ceagesp": {
       "status": "ok",
-      "verificado_em": "2026-10-20T14:26:23.731194+00:00",
+      "verificado_em": "2026-10-20T14:29:04.784817+00:00",
       "ultima_cotacao": "2026-10-19"
     },
     "campinas": {
       "status": "ok",
-      "verificado_em": "2026-10-20T14:26:23.731251+00:00",
+      "verificado_em": "2026-10-20T14:29:23.717906+00:00",
       "ultima_cotacao": "2026-10-19"
     }
   }
