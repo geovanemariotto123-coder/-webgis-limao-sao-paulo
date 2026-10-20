@@ -65,6 +65,8 @@ def gerar():
     mapa.get_root().html.add_child(Element(html))
     js = Path('interface.js').read_text()
     payload = json.dumps({'dados':dados,'estado':estado,'nomes':nomes,'metricas':METRICAS,'info':info},ensure_ascii=False).replace('</','<\\/')
+    mercado = json.dumps(ler('mercado.json'), ensure_ascii=False).replace('</', '<\\/')
+    js = js.replace('__MERCADO__', mercado)
     js = js.replace('__PAYLOAD__', payload).replace('__MAPA__', mapa.get_name()).replace('__CAMADA__', camada.get_name())
     macro = MacroElement(); macro._template = Template('{% macro script(this, kwargs) %}'+js+'{% endmacro %}'); mapa.add_child(macro)
     mapa.save('index.html')

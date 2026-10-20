@@ -1,6 +1,6 @@
 {
   "cobertura": "Registros selecionados de 2025 e 2026. Não é uma série contínua de 2020–2026 nem cotação em tempo real.",
-  "consulta": "2026-10-12",
+  "consulta": "2026-10-20",
   "mercados": {
     "ceagesp": {
       "local": "Atacado · Entreposto Terminal São Paulo",
@@ -8,13 +8,54 @@
       "nota": "Preço no entreposto; não representa valor recebido pelo produtor."
     },
     "hf": {
-      "local": "Cinturão citrícola · mercado de mesa",
+      "local": "Histórico agregado · mercado de mesa",
       "nome": "Hortifruti Brasil/Cepea",
       "nota": "Referência regional publicada pelo Cepea; não corresponde à cotação individual de cada município."
+    },
+    "hf-araraquara": {
+      "nome": "Hortifruti Brasil/Cepea",
+      "local": "Araraquara (região) · Tahiti colhida",
+      "nota": "Referência regional publicada pelo Cepea, para fruta colhida. Regiões, datas e pesos diferentes não são diretamente comparáveis. Uso educativo não comercial; fonte: Hortifruti/Cepea, CC BY-NC 4.0."
+    },
+    "hf-bebedouro": {
+      "nome": "Hortifruti Brasil/Cepea",
+      "local": "Bebedouro (região) · Tahiti colhida",
+      "nota": "Referência regional publicada pelo Cepea, para fruta colhida. Regiões, datas e pesos diferentes não são diretamente comparáveis. Uso educativo não comercial; fonte: Hortifruti/Cepea, CC BY-NC 4.0."
+    },
+    "hf-mogiana": {
+      "nome": "Hortifruti Brasil/Cepea",
+      "local": "Mogiana (região) · Tahiti colhida",
+      "nota": "Referência regional publicada pelo Cepea, para fruta colhida. Regiões, datas e pesos diferentes não são diretamente comparáveis. Uso educativo não comercial; fonte: Hortifruti/Cepea, CC BY-NC 4.0."
     }
   },
   "produto": "Lima ácida Tahiti (limão taiti)",
   "registros": [
+    {
+      "fim": "2025-01-31",
+      "fonte": "https://ceagesp.gov.br/entrepostos/servicos/indice-ceagesp/indice-ceagesp-janeiro-2025/",
+      "frequencia": "mensal",
+      "id": "ceagesp-jan25",
+      "inicio": "2025-01-01",
+      "mercado": "ceagesp",
+      "periodo": "Janeiro/2025",
+      "peso_kg": 1,
+      "publicacao": "2025-02-10",
+      "unidade": "R$/kg",
+      "valor": 2.34
+    },
+    {
+      "fim": "2026-02-02",
+      "fonte": "https://ceagesp.gov.br/entrepostos/servicos/dicas-da-semana/2026-semana-06/",
+      "frequencia": "diária",
+      "id": "ceagesp-fev26",
+      "inicio": "2026-02-02",
+      "mercado": "ceagesp",
+      "periodo": "02/02/2026",
+      "peso_kg": 1,
+      "publicacao": "2026-02-03",
+      "unidade": "R$/kg",
+      "valor": 1.87
+    },
     {
       "fim": "2026-06-30",
       "fonte": "https://www.hfbrasil.org.br/br/citros-cepea-precos-da-lima-acida-tahiti-seguem-em-alta-no-fim-de-agosto.aspx",
@@ -42,19 +83,6 @@
       "valor": 55.6
     },
     {
-      "fim": "2026-08-28",
-      "fonte": "https://www.hfbrasil.org.br/br/citros-cepea-precos-da-lima-acida-tahiti-seguem-em-alta-no-fim-de-agosto.aspx",
-      "frequencia": "mensal parcial",
-      "id": "hf-ago26",
-      "inicio": "2026-08-01",
-      "mercado": "hf",
-      "periodo": "Agosto/2026 · até 28/08",
-      "peso_kg": 27.2,
-      "publicacao": "2026-08-28",
-      "unidade": "R$/caixa de 27,2 kg",
-      "valor": 103.57
-    },
-    {
       "fim": "2026-08-21",
       "fonte": "https://www.hfbrasil.org.br/br/citros-cepea-mercado-de-mesa-tem-ritmo-lento-precos-da-tahiti-e-da-ponca-reagem.aspx",
       "frequencia": "semanal",
@@ -66,6 +94,19 @@
       "publicacao": "2026-08-21",
       "unidade": "R$/caixa de 27,2 kg",
       "valor": 102.26
+    },
+    {
+      "fim": "2026-08-28",
+      "fonte": "https://www.hfbrasil.org.br/br/citros-cepea-precos-da-lima-acida-tahiti-seguem-em-alta-no-fim-de-agosto.aspx",
+      "frequencia": "mensal parcial",
+      "id": "hf-ago26",
+      "inicio": "2026-08-01",
+      "mercado": "hf",
+      "periodo": "Agosto/2026 · até 28/08",
+      "peso_kg": 27.2,
+      "publicacao": "2026-08-28",
+      "unidade": "R$/caixa de 27,2 kg",
+      "valor": 103.57
     },
     {
       "fim": "2026-08-28",
@@ -92,32 +133,6 @@
       "publicacao": "2026-09-04",
       "unidade": "R$/caixa de 27,2 kg",
       "valor": 137.51
-    },
-    {
-      "fim": "2026-02-02",
-      "fonte": "https://ceagesp.gov.br/entrepostos/servicos/dicas-da-semana/2026-semana-06/",
-      "frequencia": "diária",
-      "id": "ceagesp-fev26",
-      "inicio": "2026-02-02",
-      "mercado": "ceagesp",
-      "periodo": "02/02/2026",
-      "peso_kg": 1,
-      "publicacao": "2026-02-03",
-      "unidade": "R$/kg",
-      "valor": 1.87
-    },
-    {
-      "fim": "2025-01-31",
-      "fonte": "https://ceagesp.gov.br/entrepostos/servicos/indice-ceagesp/indice-ceagesp-janeiro-2025/",
-      "frequencia": "mensal",
-      "id": "ceagesp-jan25",
-      "inicio": "2025-01-01",
-      "mercado": "ceagesp",
-      "periodo": "Janeiro/2025",
-      "peso_kg": 1,
-      "publicacao": "2025-02-10",
-      "unidade": "R$/kg",
-      "valor": 2.34
     },
     {
       "id": "hf-set11",
@@ -183,6 +198,175 @@
       "unidade": "R$/caixa de 27,2 kg",
       "publicacao": "2026-10-09",
       "fonte": "https://www.hfbrasil.org.br/br/citros-cepea-exportacoes-de-suco-se-recuperam-em-setembro-desempenho-melhora-no-3-tri.aspx"
+    },
+    {
+      "id": "hf-araraquara-2026-10-13",
+      "inicio": "2026-10-13",
+      "fim": "2026-10-13",
+      "periodo": "13/10/2026",
+      "frequencia": "diária",
+      "valor": 153.54,
+      "mercado": "hf-araraquara",
+      "peso_kg": 27,
+      "unidade": "R$/caixa de 27 kg",
+      "publicacao": "2026-10-13",
+      "fonte": "https://hfbrasil.org.br/citros"
+    },
+    {
+      "id": "hf-bebedouro-2026-10-13",
+      "inicio": "2026-10-13",
+      "fim": "2026-10-13",
+      "periodo": "13/10/2026",
+      "frequencia": "diária",
+      "valor": 155,
+      "mercado": "hf-bebedouro",
+      "peso_kg": 27,
+      "unidade": "R$/caixa de 27 kg",
+      "publicacao": "2026-10-13",
+      "fonte": "https://hfbrasil.org.br/citros"
+    },
+    {
+      "id": "hf-araraquara-2026-10-14",
+      "inicio": "2026-10-14",
+      "fim": "2026-10-14",
+      "periodo": "14/10/2026",
+      "frequencia": "diária",
+      "valor": 156.46,
+      "mercado": "hf-araraquara",
+      "peso_kg": 27,
+      "unidade": "R$/caixa de 27 kg",
+      "publicacao": "2026-10-14",
+      "fonte": "https://hfbrasil.org.br/citros"
+    },
+    {
+      "id": "hf-bebedouro-2026-10-14",
+      "inicio": "2026-10-14",
+      "fim": "2026-10-14",
+      "periodo": "14/10/2026",
+      "frequencia": "diária",
+      "valor": 155,
+      "mercado": "hf-bebedouro",
+      "peso_kg": 27,
+      "unidade": "R$/caixa de 27 kg",
+      "publicacao": "2026-10-14",
+      "fonte": "https://hfbrasil.org.br/citros"
+    },
+    {
+      "id": "hf-araraquara-2026-10-15",
+      "inicio": "2026-10-15",
+      "fim": "2026-10-15",
+      "periodo": "15/10/2026",
+      "frequencia": "diária",
+      "valor": 155.03,
+      "mercado": "hf-araraquara",
+      "peso_kg": 27,
+      "unidade": "R$/caixa de 27 kg",
+      "publicacao": "2026-10-15",
+      "fonte": "https://hfbrasil.org.br/citros"
+    },
+    {
+      "id": "hf-bebedouro-2026-10-15",
+      "inicio": "2026-10-15",
+      "fim": "2026-10-15",
+      "periodo": "15/10/2026",
+      "frequencia": "diária",
+      "valor": 155,
+      "mercado": "hf-bebedouro",
+      "peso_kg": 27,
+      "unidade": "R$/caixa de 27 kg",
+      "publicacao": "2026-10-15",
+      "fonte": "https://hfbrasil.org.br/citros"
+    },
+    {
+      "id": "hf-mogiana-2026-10-15",
+      "inicio": "2026-10-15",
+      "fim": "2026-10-15",
+      "periodo": "15/10/2026",
+      "frequencia": "diária",
+      "valor": 180,
+      "mercado": "hf-mogiana",
+      "peso_kg": 27,
+      "unidade": "R$/caixa de 27 kg",
+      "publicacao": "2026-10-15",
+      "fonte": "https://hfbrasil.org.br/citros"
+    },
+    {
+      "id": "hf-araraquara-2026-10-16",
+      "inicio": "2026-10-16",
+      "fim": "2026-10-16",
+      "periodo": "16/10/2026",
+      "frequencia": "diária",
+      "valor": 156.07,
+      "mercado": "hf-araraquara",
+      "peso_kg": 27,
+      "unidade": "R$/caixa de 27 kg",
+      "publicacao": "2026-10-16",
+      "fonte": "https://hfbrasil.org.br/citros"
+    },
+    {
+      "id": "hf-bebedouro-2026-10-16",
+      "inicio": "2026-10-16",
+      "fim": "2026-10-16",
+      "periodo": "16/10/2026",
+      "frequencia": "diária",
+      "valor": 155,
+      "mercado": "hf-bebedouro",
+      "peso_kg": 27,
+      "unidade": "R$/caixa de 27 kg",
+      "publicacao": "2026-10-16",
+      "fonte": "https://hfbrasil.org.br/citros"
+    },
+    {
+      "id": "hf-mogiana-2026-10-16",
+      "inicio": "2026-10-16",
+      "fim": "2026-10-16",
+      "periodo": "16/10/2026",
+      "frequencia": "diária",
+      "valor": 180,
+      "mercado": "hf-mogiana",
+      "peso_kg": 27,
+      "unidade": "R$/caixa de 27 kg",
+      "publicacao": "2026-10-16",
+      "fonte": "https://hfbrasil.org.br/citros"
+    },
+    {
+      "id": "hf-araraquara-2026-10-19",
+      "inicio": "2026-10-19",
+      "fim": "2026-10-19",
+      "periodo": "19/10/2026",
+      "frequencia": "diária",
+      "valor": 156.89,
+      "mercado": "hf-araraquara",
+      "peso_kg": 27,
+      "unidade": "R$/caixa de 27 kg",
+      "publicacao": "2026-10-19",
+      "fonte": "https://hfbrasil.org.br/citros"
+    },
+    {
+      "id": "hf-bebedouro-2026-10-19",
+      "inicio": "2026-10-19",
+      "fim": "2026-10-19",
+      "periodo": "19/10/2026",
+      "frequencia": "diária",
+      "valor": 155,
+      "mercado": "hf-bebedouro",
+      "peso_kg": 27,
+      "unidade": "R$/caixa de 27 kg",
+      "publicacao": "2026-10-19",
+      "fonte": "https://hfbrasil.org.br/citros"
+    },
+    {
+      "id": "hf-mogiana-2026-10-19",
+      "inicio": "2026-10-19",
+      "fim": "2026-10-19",
+      "periodo": "19/10/2026",
+      "frequencia": "diária",
+      "valor": 180,
+      "mercado": "hf-mogiana",
+      "peso_kg": 27,
+      "unidade": "R$/caixa de 27 kg",
+      "publicacao": "2026-10-19",
+      "fonte": "https://hfbrasil.org.br/citros"
     }
   ],
   "volumes": {
@@ -204,5 +388,12 @@
       "publicacao": "2026-10-06",
       "fonte": "https://ceagesp.gov.br/entrepostos/servicos/dicas-da-semana/2026-semana-41/"
     }
-  ]
+  ],
+  "atualizacao_hf": {
+    "verificado_em": "2026-10-20T14:17:47.784138+00:00",
+    "ultima_cotacao": "2026-10-19",
+    "fonte": "https://hfbrasil.org.br/citros",
+    "status": "ok",
+    "metodo": "Conferência inicial da tabela oficial; próximas consultas pelo workflow."
+  }
 }

@@ -1,0 +1,58 @@
+name: Atualizar cotações do limão e publicar
+on:
+  schedule:
+    - cron: '17 22 * * 1-5' # 19h17 de Brasília, de segunda a sexta
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['atualizar_mercado.py', 'gerar.py', 'interface.js', 'painel.html', 'requirements.txt', '.github/workflows/atualizar-mercado.yml']
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: mercado-pages
+  cancel-in-progress: false
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - run: python -m unittest discover -s tests
+      - name: Consultar cotações oficiais
+        id: coleta
+        continue-on-error: true
+        run: python atualizar_mercado.py
+      - name: Gerar página com os últimos dados válidos
+        run: python gerar.py
+      - name: Salvar atualização no repositório
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/mercado.json index.html
+          if ! git diff --cached --quiet; then
+            git commit -m 'Atualiza cotações e página do WebGIS [skip ci]'
+            git push
+          fi
+      - name: Preparar publicação
+        run: |
+          mkdir -p public
+          cp index.html public/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Publicar no GitHub Pages
+        uses: actions/deploy-pages@v4
+      - name: Avisar quando a coleta falhar
+        if: steps.coleta.outcome == 'failure'
+        run: |
+          echo '::error::A fonte não respondeu ou mudou o formato. Histórico preservado; confira a data no painel.'
+          exit 1
+    environment:
+      name: github-pages
+      url: https://geovanemariotto123-coder.github.io/-webgis-limao-sao-paulo/

@@ -31,3 +31,13 @@ Fonte: https://sidra.ibge.gov.br/tabela/1613. Endereços exatos e data da coleta
 “Limão” é a categoria da PAM e não separa Tahiti, Siciliano e outros tipos. Área destinada à colheita não mede novos plantios. Valor da produção não é preço de venda nem volume comercializado. Há registros selecionados de preços da CEAGESP e do Hortifruti Brasil/Cepea em uma seção separada. Eles não formam uma série contínua nem medem o volume comercializado, que ainda não está integrado.
 
 O HTML usa Leaflet/Folium e mapa-base OpenStreetMap, com recursos externos; precisa de conexão para carregar essas dependências. O recorte municipal e a série de dados estão incorporados no HTML.
+
+## Atualização automática de preços
+
+O workflow `atualizar-mercado.yml` consulta a tabela pública de citros do Hortifruti Brasil/Cepea de segunda a sexta às 19h17 (Brasília), além de permitir execução manual em Actions. Preserva regiões, datas, pesos e os registros históricos agregados. A CEAGESP continua identificada como histórico sem atualização automática. Não existe integração automática da PAM neste fluxo.
+
+O coletor valida produto, região, unidade, datas e valores. Ausências não viram zero. Em caso de bloqueio da fonte ou mudança de formato, preserva o histórico e marca o workflow como falho, publicando a última base válida. O painel mostra a última consulta bem-sucedida e avisa quando a cotação tem mais de sete dias. A atualização depende da disponibilidade do portal e do GitHub Actions.
+
+Execução local: `python atualizar_mercado.py` e `python gerar.py`. Testes: `python -m unittest discover -s tests`.
+
+Dados regionais: Hortifruti/Cepea, licença CC BY-NC 4.0, para divulgação educativa não comercial. As cotações diárias regionais em caixa de 27 kg ficam separadas das notícias históricas de médias semanais em caixa de 27,2 kg.
