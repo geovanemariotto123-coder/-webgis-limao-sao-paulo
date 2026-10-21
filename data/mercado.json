@@ -1,6 +1,6 @@
 {
   "cobertura": "Registros selecionados de 2025 e 2026. Não é uma série contínua de 2020–2026 nem cotação em tempo real.",
-  "consulta": "2026-10-20",
+  "consulta": "2026-10-21",
   "mercados": {
     "ceagesp": {
       "local": "Atacado · Entreposto Terminal São Paulo",
@@ -68,6 +68,11 @@
       "nota": "Preço de venda no atacado; não é preço pago ao produtor. As classificações das centrais não são equivalentes.",
       "atualizacao_chave": "campinas",
       "central": "campinas"
+    },
+    "hf-limeira": {
+      "nome": "Hortifruti Brasil/Cepea",
+      "local": "Limeira (região) · Tahiti colhida",
+      "nota": "Referência regional publicada pelo Cepea, para fruta colhida. Regiões, datas e pesos diferentes não são diretamente comparáveis. Uso educativo não comercial; fonte: Hortifruti/Cepea, CC BY-NC 4.0."
     }
   },
   "produto": "Lima ácida Tahiti (limão taiti)",
@@ -631,6 +636,109 @@
       "unidade": "R$/caixa de 27 kg",
       "publicacao": "2026-10-19",
       "fonte": "https://hfbrasil.org.br/citros"
+    },
+    {
+      "id": "campinas-especial-2026-10-20",
+      "mercado": "campinas-especial",
+      "inicio": "2026-10-20",
+      "fim": "2026-10-20",
+      "periodo": "20/10/2026",
+      "frequencia": "diária",
+      "valor": 7.25,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-20",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Especial",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "campinas-extra-2026-10-20",
+      "mercado": "campinas-extra",
+      "inicio": "2026-10-20",
+      "fim": "2026-10-20",
+      "periodo": "20/10/2026",
+      "frequencia": "diária",
+      "valor": 10.0,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-20",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Extra",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "campinas-primeira-2026-10-20",
+      "mercado": "campinas-primeira",
+      "inicio": "2026-10-20",
+      "fim": "2026-10-20",
+      "periodo": "20/10/2026",
+      "frequencia": "diária",
+      "valor": 4.5,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-20",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Primeira",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "hf-araraquara-2026-10-20",
+      "inicio": "2026-10-20",
+      "fim": "2026-10-20",
+      "periodo": "20/10/2026",
+      "frequencia": "diária",
+      "valor": 160.54,
+      "mercado": "hf-araraquara",
+      "peso_kg": 27.0,
+      "unidade": "R$/caixa de 27 kg",
+      "publicacao": "2026-10-20",
+      "fonte": "https://hfbrasil.org.br/citros"
+    },
+    {
+      "id": "hf-bebedouro-2026-10-20",
+      "inicio": "2026-10-20",
+      "fim": "2026-10-20",
+      "periodo": "20/10/2026",
+      "frequencia": "diária",
+      "valor": 150.0,
+      "mercado": "hf-bebedouro",
+      "peso_kg": 27.0,
+      "unidade": "R$/caixa de 27 kg",
+      "publicacao": "2026-10-20",
+      "fonte": "https://hfbrasil.org.br/citros"
+    },
+    {
+      "id": "hf-limeira-2026-10-20",
+      "inicio": "2026-10-20",
+      "fim": "2026-10-20",
+      "periodo": "20/10/2026",
+      "frequencia": "diária",
+      "valor": 145.0,
+      "mercado": "hf-limeira",
+      "peso_kg": 27.0,
+      "unidade": "R$/caixa de 27 kg",
+      "publicacao": "2026-10-20",
+      "fonte": "https://hfbrasil.org.br/citros"
+    },
+    {
+      "id": "hf-mogiana-2026-10-20",
+      "inicio": "2026-10-20",
+      "fim": "2026-10-20",
+      "periodo": "20/10/2026",
+      "frequencia": "diária",
+      "valor": 180.0,
+      "mercado": "hf-mogiana",
+      "peso_kg": 27.0,
+      "unidade": "R$/caixa de 27 kg",
+      "publicacao": "2026-10-20",
+      "fonte": "https://hfbrasil.org.br/citros"
     }
   ],
   "volumes": {
@@ -654,21 +762,21 @@
     }
   ],
   "atualizacao_hf": {
-    "verificado_em": "2026-10-20T14:28:56.957146+00:00",
-    "ultima_cotacao": "2026-10-19",
+    "verificado_em": "2026-10-21T00:40:55.344836+00:00",
+    "ultima_cotacao": "2026-10-20",
     "fonte": "https://hfbrasil.org.br/citros",
     "status": "ok"
   },
   "atualizacoes": {
     "ceagesp": {
       "status": "ok",
-      "verificado_em": "2026-10-20T14:29:04.784817+00:00",
+      "verificado_em": "2026-10-21T00:41:00.093754+00:00",
       "ultima_cotacao": "2026-10-19"
     },
     "campinas": {
       "status": "ok",
-      "verificado_em": "2026-10-20T14:29:23.717906+00:00",
-      "ultima_cotacao": "2026-10-19"
+      "verificado_em": "2026-10-21T00:41:19.583527+00:00",
+      "ultima_cotacao": "2026-10-20"
     }
   }
 }
