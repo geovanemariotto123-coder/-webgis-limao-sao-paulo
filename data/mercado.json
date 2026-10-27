@@ -1,6 +1,6 @@
 {
   "cobertura": "Registros selecionados de 2025 e 2026. Não é uma série contínua de 2020–2026 nem cotação em tempo real.",
-  "consulta": "2026-10-24",
+  "consulta": "2026-10-27",
   "mercados": {
     "ceagesp": {
       "local": "Atacado · Entreposto Terminal São Paulo",
@@ -1162,6 +1162,166 @@
       "unidade": "R$/caixa de 27 kg",
       "publicacao": "2026-10-23",
       "fonte": "https://hfbrasil.org.br/citros"
+    },
+    {
+      "id": "campinas-especial-2026-10-26",
+      "mercado": "campinas-especial",
+      "inicio": "2026-10-26",
+      "fim": "2026-10-26",
+      "periodo": "26/10/2026",
+      "frequencia": "diária",
+      "valor": 7.25,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-26",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Especial",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "campinas-extra-2026-10-26",
+      "mercado": "campinas-extra",
+      "inicio": "2026-10-26",
+      "fim": "2026-10-26",
+      "periodo": "26/10/2026",
+      "frequencia": "diária",
+      "valor": 10.0,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-26",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Extra",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "campinas-primeira-2026-10-26",
+      "mercado": "campinas-primeira",
+      "inicio": "2026-10-26",
+      "fim": "2026-10-26",
+      "periodo": "26/10/2026",
+      "frequencia": "diária",
+      "valor": 4.5,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-26",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Primeira",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "ceagesp-15-a-18-dz-2026-10-26",
+      "mercado": "ceagesp-15-a-18-dz",
+      "inicio": "2026-10-26",
+      "fim": "2026-10-26",
+      "periodo": "26/10/2026",
+      "frequencia": "diária",
+      "valor": 9.02,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-26",
+      "fonte": "https://ceagesp.gov.br/cotacoes/",
+      "classificacao": "15 A 18 DZ",
+      "central": "ceagesp",
+      "tipo_preco": "mais comum",
+      "origem": "CEAGESP",
+      "valor_minimo": 8.7,
+      "valor_maximo": 9.35
+    },
+    {
+      "id": "ceagesp-21-a-27-dz-2026-10-26",
+      "mercado": "ceagesp-21-a-27-dz",
+      "inicio": "2026-10-26",
+      "fim": "2026-10-26",
+      "periodo": "26/10/2026",
+      "frequencia": "diária",
+      "valor": 7.74,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-26",
+      "fonte": "https://ceagesp.gov.br/cotacoes/",
+      "classificacao": "21 A 27 DZ",
+      "central": "ceagesp",
+      "tipo_preco": "mais comum",
+      "origem": "CEAGESP",
+      "valor_minimo": 7.39,
+      "valor_maximo": 8.05
+    },
+    {
+      "id": "ceagesp-acima-de-31-dz-2026-10-26",
+      "mercado": "ceagesp-acima-de-31-dz",
+      "inicio": "2026-10-26",
+      "fim": "2026-10-26",
+      "periodo": "26/10/2026",
+      "frequencia": "diária",
+      "valor": 6.27,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-26",
+      "fonte": "https://ceagesp.gov.br/cotacoes/",
+      "classificacao": "ACIMA DE 31 DZ",
+      "central": "ceagesp",
+      "tipo_preco": "mais comum",
+      "origem": "CEAGESP",
+      "valor_minimo": 5.94,
+      "valor_maximo": 6.59
+    },
+    {
+      "id": "hf-araraquara-2026-10-26",
+      "inicio": "2026-10-26",
+      "fim": "2026-10-26",
+      "periodo": "26/10/2026",
+      "frequencia": "diária",
+      "valor": 171.03,
+      "mercado": "hf-araraquara",
+      "peso_kg": 27.0,
+      "unidade": "R$/caixa de 27 kg",
+      "publicacao": "2026-10-26",
+      "fonte": "https://hfbrasil.org.br/citros"
+    },
+    {
+      "id": "hf-bebedouro-2026-10-26",
+      "inicio": "2026-10-26",
+      "fim": "2026-10-26",
+      "periodo": "26/10/2026",
+      "frequencia": "diária",
+      "valor": 177.5,
+      "mercado": "hf-bebedouro",
+      "peso_kg": 27.0,
+      "unidade": "R$/caixa de 27 kg",
+      "publicacao": "2026-10-26",
+      "fonte": "https://hfbrasil.org.br/citros"
+    },
+    {
+      "id": "hf-limeira-2026-10-26",
+      "inicio": "2026-10-26",
+      "fim": "2026-10-26",
+      "periodo": "26/10/2026",
+      "frequencia": "diária",
+      "valor": 145.0,
+      "mercado": "hf-limeira",
+      "peso_kg": 27.0,
+      "unidade": "R$/caixa de 27 kg",
+      "publicacao": "2026-10-26",
+      "fonte": "https://hfbrasil.org.br/citros"
+    },
+    {
+      "id": "hf-mogiana-2026-10-26",
+      "inicio": "2026-10-26",
+      "fim": "2026-10-26",
+      "periodo": "26/10/2026",
+      "frequencia": "diária",
+      "valor": 175.0,
+      "mercado": "hf-mogiana",
+      "peso_kg": 27.0,
+      "unidade": "R$/caixa de 27 kg",
+      "publicacao": "2026-10-26",
+      "fonte": "https://hfbrasil.org.br/citros"
     }
   ],
   "volumes": {
@@ -1185,21 +1345,21 @@
     }
   ],
   "atualizacao_hf": {
-    "verificado_em": "2026-10-24T00:47:22.284106+00:00",
-    "ultima_cotacao": "2026-10-23",
+    "verificado_em": "2026-10-27T01:31:21.133705+00:00",
+    "ultima_cotacao": "2026-10-26",
     "fonte": "https://hfbrasil.org.br/citros",
     "status": "ok"
   },
   "atualizacoes": {
     "ceagesp": {
       "status": "ok",
-      "verificado_em": "2026-10-24T00:47:26.622713+00:00",
-      "ultima_cotacao": "2026-10-23"
+      "verificado_em": "2026-10-27T01:31:26.495790+00:00",
+      "ultima_cotacao": "2026-10-26"
     },
     "campinas": {
       "status": "ok",
-      "verificado_em": "2026-10-24T00:47:46.133442+00:00",
-      "ultima_cotacao": "2026-10-23"
+      "verificado_em": "2026-10-27T01:31:46.846880+00:00",
+      "ultima_cotacao": "2026-10-26"
     }
   }
 }
