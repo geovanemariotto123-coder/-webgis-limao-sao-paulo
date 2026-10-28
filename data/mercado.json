@@ -1,6 +1,6 @@
 {
   "cobertura": "Registros selecionados de 2025 e 2026. Não é uma série contínua de 2020–2026 nem cotação em tempo real.",
-  "consulta": "2026-10-27",
+  "consulta": "2026-10-28",
   "mercados": {
     "ceagesp": {
       "local": "Atacado · Entreposto Terminal São Paulo",
@@ -1322,6 +1322,96 @@
       "unidade": "R$/caixa de 27 kg",
       "publicacao": "2026-10-26",
       "fonte": "https://hfbrasil.org.br/citros"
+    },
+    {
+      "id": "campinas-especial-2026-10-27",
+      "mercado": "campinas-especial",
+      "inicio": "2026-10-27",
+      "fim": "2026-10-27",
+      "periodo": "27/10/2026",
+      "frequencia": "diária",
+      "valor": 7.25,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-27",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Especial",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "campinas-extra-2026-10-27",
+      "mercado": "campinas-extra",
+      "inicio": "2026-10-27",
+      "fim": "2026-10-27",
+      "periodo": "27/10/2026",
+      "frequencia": "diária",
+      "valor": 10.0,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-27",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Extra",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "campinas-primeira-2026-10-27",
+      "mercado": "campinas-primeira",
+      "inicio": "2026-10-27",
+      "fim": "2026-10-27",
+      "periodo": "27/10/2026",
+      "frequencia": "diária",
+      "valor": 4.5,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-27",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Primeira",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "hf-araraquara-2026-10-27",
+      "inicio": "2026-10-27",
+      "fim": "2026-10-27",
+      "periodo": "27/10/2026",
+      "frequencia": "diária",
+      "valor": 166.82,
+      "mercado": "hf-araraquara",
+      "peso_kg": 27.0,
+      "unidade": "R$/caixa de 27 kg",
+      "publicacao": "2026-10-27",
+      "fonte": "https://hfbrasil.org.br/citros"
+    },
+    {
+      "id": "hf-bebedouro-2026-10-27",
+      "inicio": "2026-10-27",
+      "fim": "2026-10-27",
+      "periodo": "27/10/2026",
+      "frequencia": "diária",
+      "valor": 177.5,
+      "mercado": "hf-bebedouro",
+      "peso_kg": 27.0,
+      "unidade": "R$/caixa de 27 kg",
+      "publicacao": "2026-10-27",
+      "fonte": "https://hfbrasil.org.br/citros"
+    },
+    {
+      "id": "hf-mogiana-2026-10-27",
+      "inicio": "2026-10-27",
+      "fim": "2026-10-27",
+      "periodo": "27/10/2026",
+      "frequencia": "diária",
+      "valor": 175.0,
+      "mercado": "hf-mogiana",
+      "peso_kg": 27.0,
+      "unidade": "R$/caixa de 27 kg",
+      "publicacao": "2026-10-27",
+      "fonte": "https://hfbrasil.org.br/citros"
     }
   ],
   "volumes": {
@@ -1345,21 +1435,21 @@
     }
   ],
   "atualizacao_hf": {
-    "verificado_em": "2026-10-27T01:31:21.133705+00:00",
-    "ultima_cotacao": "2026-10-26",
+    "verificado_em": "2026-10-28T01:27:35.953340+00:00",
+    "ultima_cotacao": "2026-10-27",
     "fonte": "https://hfbrasil.org.br/citros",
     "status": "ok"
   },
   "atualizacoes": {
     "ceagesp": {
       "status": "ok",
-      "verificado_em": "2026-10-27T01:31:26.495790+00:00",
+      "verificado_em": "2026-10-28T01:27:40.849348+00:00",
       "ultima_cotacao": "2026-10-26"
     },
     "campinas": {
       "status": "ok",
-      "verificado_em": "2026-10-27T01:31:46.846880+00:00",
-      "ultima_cotacao": "2026-10-26"
+      "verificado_em": "2026-10-28T01:27:59.877770+00:00",
+      "ultima_cotacao": "2026-10-27"
     }
   }
 }
