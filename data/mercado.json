@@ -1,6 +1,6 @@
 {
   "cobertura": "Registros selecionados de 2025 e 2026. Não é uma série contínua de 2020–2026 nem cotação em tempo real.",
-  "consulta": "2026-10-30",
+  "consulta": "2026-10-31",
   "mercados": {
     "ceagesp": {
       "local": "Atacado · Entreposto Terminal São Paulo",
@@ -1636,6 +1636,153 @@
       "unidade": "R$/caixa de 27 kg",
       "publicacao": "2026-10-29",
       "fonte": "https://hfbrasil.org.br/citros"
+    },
+    {
+      "id": "campinas-especial-2026-10-30",
+      "mercado": "campinas-especial",
+      "inicio": "2026-10-30",
+      "fim": "2026-10-30",
+      "periodo": "30/10/2026",
+      "frequencia": "diária",
+      "valor": 7.25,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-30",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Especial",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "campinas-extra-2026-10-30",
+      "mercado": "campinas-extra",
+      "inicio": "2026-10-30",
+      "fim": "2026-10-30",
+      "periodo": "30/10/2026",
+      "frequencia": "diária",
+      "valor": 10.0,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-30",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Extra",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "campinas-primeira-2026-10-30",
+      "mercado": "campinas-primeira",
+      "inicio": "2026-10-30",
+      "fim": "2026-10-30",
+      "periodo": "30/10/2026",
+      "frequencia": "diária",
+      "valor": 4.5,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-30",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Primeira",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "ceagesp-15-a-18-dz-2026-10-30",
+      "mercado": "ceagesp-15-a-18-dz",
+      "inicio": "2026-10-30",
+      "fim": "2026-10-30",
+      "periodo": "30/10/2026",
+      "frequencia": "diária",
+      "valor": 8.71,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-30",
+      "fonte": "https://ceagesp.gov.br/cotacoes/",
+      "classificacao": "15 A 18 DZ",
+      "central": "ceagesp",
+      "tipo_preco": "mais comum",
+      "origem": "CEAGESP",
+      "valor_minimo": 8.28,
+      "valor_maximo": 9.11
+    },
+    {
+      "id": "ceagesp-21-a-27-dz-2026-10-30",
+      "mercado": "ceagesp-21-a-27-dz",
+      "inicio": "2026-10-30",
+      "fim": "2026-10-30",
+      "periodo": "30/10/2026",
+      "frequencia": "diária",
+      "valor": 7.06,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-30",
+      "fonte": "https://ceagesp.gov.br/cotacoes/",
+      "classificacao": "21 A 27 DZ",
+      "central": "ceagesp",
+      "tipo_preco": "mais comum",
+      "origem": "CEAGESP",
+      "valor_minimo": 6.63,
+      "valor_maximo": 7.51
+    },
+    {
+      "id": "ceagesp-acima-de-31-dz-2026-10-30",
+      "mercado": "ceagesp-acima-de-31-dz",
+      "inicio": "2026-10-30",
+      "fim": "2026-10-30",
+      "periodo": "30/10/2026",
+      "frequencia": "diária",
+      "valor": 5.07,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-10-30",
+      "fonte": "https://ceagesp.gov.br/cotacoes/",
+      "classificacao": "ACIMA DE 31 DZ",
+      "central": "ceagesp",
+      "tipo_preco": "mais comum",
+      "origem": "CEAGESP",
+      "valor_minimo": 4.72,
+      "valor_maximo": 5.43
+    },
+    {
+      "id": "hf-araraquara-2026-10-30",
+      "inicio": "2026-10-30",
+      "fim": "2026-10-30",
+      "periodo": "30/10/2026",
+      "frequencia": "diária",
+      "valor": 163.57,
+      "mercado": "hf-araraquara",
+      "peso_kg": 27.0,
+      "unidade": "R$/caixa de 27 kg",
+      "publicacao": "2026-10-30",
+      "fonte": "https://hfbrasil.org.br/citros"
+    },
+    {
+      "id": "hf-bebedouro-2026-10-30",
+      "inicio": "2026-10-30",
+      "fim": "2026-10-30",
+      "periodo": "30/10/2026",
+      "frequencia": "diária",
+      "valor": 170.0,
+      "mercado": "hf-bebedouro",
+      "peso_kg": 27.0,
+      "unidade": "R$/caixa de 27 kg",
+      "publicacao": "2026-10-30",
+      "fonte": "https://hfbrasil.org.br/citros"
+    },
+    {
+      "id": "hf-mogiana-2026-10-30",
+      "inicio": "2026-10-30",
+      "fim": "2026-10-30",
+      "periodo": "30/10/2026",
+      "frequencia": "diária",
+      "valor": 145.0,
+      "mercado": "hf-mogiana",
+      "peso_kg": 27.0,
+      "unidade": "R$/caixa de 27 kg",
+      "publicacao": "2026-10-30",
+      "fonte": "https://hfbrasil.org.br/citros"
     }
   ],
   "volumes": {
@@ -1659,23 +1806,21 @@
     }
   ],
   "atualizacao_hf": {
-    "verificado_em": "2026-10-30T02:00:26.181311+00:00",
-    "ultima_cotacao": "2026-10-29",
+    "verificado_em": "2026-10-31T01:38:56.505605+00:00",
+    "ultima_cotacao": "2026-10-30",
     "fonte": "https://hfbrasil.org.br/citros",
     "status": "ok"
   },
   "atualizacoes": {
     "ceagesp": {
-      "status": "erro",
-      "verificado_em": "2026-10-29T01:51:27.114154+00:00",
-      "ultima_cotacao": "2026-10-28",
-      "tentativa_em": "2026-10-30T02:00:41.206135+00:00",
-      "mensagem": "Consulta indisponível; mantido o último registro válido."
+      "status": "ok",
+      "verificado_em": "2026-10-31T01:39:02.127596+00:00",
+      "ultima_cotacao": "2026-10-30"
     },
     "campinas": {
       "status": "ok",
-      "verificado_em": "2026-10-30T02:01:00.244284+00:00",
-      "ultima_cotacao": "2026-10-29"
+      "verificado_em": "2026-10-31T01:39:21.512207+00:00",
+      "ultima_cotacao": "2026-10-30"
     }
   }
 }
