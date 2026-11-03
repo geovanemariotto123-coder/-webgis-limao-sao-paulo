@@ -1,6 +1,6 @@
 {
   "cobertura": "Registros selecionados de 2025 e 2026. Não é uma série contínua de 2020–2026 nem cotação em tempo real.",
-  "consulta": "2026-10-31",
+  "consulta": "2026-11-03",
   "mercados": {
     "ceagesp": {
       "local": "Atacado · Entreposto Terminal São Paulo",
@@ -1806,20 +1806,20 @@
     }
   ],
   "atualizacao_hf": {
-    "verificado_em": "2026-10-31T01:38:56.505605+00:00",
-    "ultima_cotacao": "2026-10-30",
+    "verificado_em": "2026-11-03T03:29:54.302714+00:00",
+    "ultima_cotacao": "2026-10-26",
     "fonte": "https://hfbrasil.org.br/citros",
     "status": "ok"
   },
   "atualizacoes": {
     "ceagesp": {
       "status": "ok",
-      "verificado_em": "2026-10-31T01:39:02.127596+00:00",
+      "verificado_em": "2026-11-03T03:29:58.768061+00:00",
       "ultima_cotacao": "2026-10-30"
     },
     "campinas": {
       "status": "ok",
-      "verificado_em": "2026-10-31T01:39:21.512207+00:00",
+      "verificado_em": "2026-11-03T03:30:17.790528+00:00",
       "ultima_cotacao": "2026-10-30"
     }
   }
