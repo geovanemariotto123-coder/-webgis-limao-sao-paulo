@@ -1942,6 +1942,57 @@
       "origem": "CEAGESP",
       "valor_minimo": 4.34,
       "valor_maximo": 4.93
+    },
+    {
+      "id": "campinas-especial-2026-11-05",
+      "mercado": "campinas-especial",
+      "inicio": "2026-11-05",
+      "fim": "2026-11-05",
+      "periodo": "05/11/2026",
+      "frequencia": "diária",
+      "valor": 8.0,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-11-05",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Especial",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "campinas-extra-2026-11-05",
+      "mercado": "campinas-extra",
+      "inicio": "2026-11-05",
+      "fim": "2026-11-05",
+      "periodo": "05/11/2026",
+      "frequencia": "diária",
+      "valor": 10.0,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-11-05",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Extra",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "campinas-primeira-2026-11-05",
+      "mercado": "campinas-primeira",
+      "inicio": "2026-11-05",
+      "fim": "2026-11-05",
+      "periodo": "05/11/2026",
+      "frequencia": "diária",
+      "valor": 6.0,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-11-05",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Primeira",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
     }
   ],
   "volumes": {
@@ -1973,13 +2024,13 @@
   "atualizacoes": {
     "ceagesp": {
       "status": "ok",
-      "verificado_em": "2026-11-05T02:33:47.187226+00:00",
+      "verificado_em": "2026-11-06T02:33:44.816562+00:00",
       "ultima_cotacao": "2026-11-04"
     },
     "campinas": {
       "status": "ok",
-      "verificado_em": "2026-11-05T02:34:06.255040+00:00",
-      "ultima_cotacao": "2026-11-04"
+      "verificado_em": "2026-11-06T02:34:04.566224+00:00",
+      "ultima_cotacao": "2026-11-05"
     }
   }
 }
