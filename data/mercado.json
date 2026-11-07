@@ -1993,6 +1993,114 @@
       "central": "campinas",
       "tipo_preco": "republicado",
       "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "campinas-especial-2026-11-06",
+      "mercado": "campinas-especial",
+      "inicio": "2026-11-06",
+      "fim": "2026-11-06",
+      "periodo": "06/11/2026",
+      "frequencia": "diária",
+      "valor": 8.0,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-11-06",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Especial",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "campinas-extra-2026-11-06",
+      "mercado": "campinas-extra",
+      "inicio": "2026-11-06",
+      "fim": "2026-11-06",
+      "periodo": "06/11/2026",
+      "frequencia": "diária",
+      "valor": 10.0,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-11-06",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Extra",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "campinas-primeira-2026-11-06",
+      "mercado": "campinas-primeira",
+      "inicio": "2026-11-06",
+      "fim": "2026-11-06",
+      "periodo": "06/11/2026",
+      "frequencia": "diária",
+      "valor": 6.0,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-11-06",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Primeira",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "ceagesp-15-a-18-dz-2026-11-06",
+      "mercado": "ceagesp-15-a-18-dz",
+      "inicio": "2026-11-06",
+      "fim": "2026-11-06",
+      "periodo": "06/11/2026",
+      "frequencia": "diária",
+      "valor": 8.95,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-11-06",
+      "fonte": "https://ceagesp.gov.br/cotacoes/",
+      "classificacao": "15 A 18 DZ",
+      "central": "ceagesp",
+      "tipo_preco": "mais comum",
+      "origem": "CEAGESP",
+      "valor_minimo": 8.57,
+      "valor_maximo": 9.28
+    },
+    {
+      "id": "ceagesp-21-a-27-dz-2026-11-06",
+      "mercado": "ceagesp-21-a-27-dz",
+      "inicio": "2026-11-06",
+      "fim": "2026-11-06",
+      "periodo": "06/11/2026",
+      "frequencia": "diária",
+      "valor": 6.69,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-11-06",
+      "fonte": "https://ceagesp.gov.br/cotacoes/",
+      "classificacao": "21 A 27 DZ",
+      "central": "ceagesp",
+      "tipo_preco": "mais comum",
+      "origem": "CEAGESP",
+      "valor_minimo": 6.38,
+      "valor_maximo": 7.01
+    },
+    {
+      "id": "ceagesp-acima-de-31-dz-2026-11-06",
+      "mercado": "ceagesp-acima-de-31-dz",
+      "inicio": "2026-11-06",
+      "fim": "2026-11-06",
+      "periodo": "06/11/2026",
+      "frequencia": "diária",
+      "valor": 4.59,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-11-06",
+      "fonte": "https://ceagesp.gov.br/cotacoes/",
+      "classificacao": "ACIMA DE 31 DZ",
+      "central": "ceagesp",
+      "tipo_preco": "mais comum",
+      "origem": "CEAGESP",
+      "valor_minimo": 4.29,
+      "valor_maximo": 4.9
     }
   ],
   "volumes": {
@@ -2024,13 +2132,13 @@
   "atualizacoes": {
     "ceagesp": {
       "status": "ok",
-      "verificado_em": "2026-11-06T02:33:44.816562+00:00",
-      "ultima_cotacao": "2026-11-04"
+      "verificado_em": "2026-11-07T01:59:54.190665+00:00",
+      "ultima_cotacao": "2026-11-06"
     },
     "campinas": {
       "status": "ok",
-      "verificado_em": "2026-11-06T02:34:04.566224+00:00",
-      "ultima_cotacao": "2026-11-05"
+      "verificado_em": "2026-11-07T02:00:13.465239+00:00",
+      "ultima_cotacao": "2026-11-06"
     }
   }
 }
