@@ -2101,6 +2101,114 @@
       "origem": "CEAGESP",
       "valor_minimo": 4.29,
       "valor_maximo": 4.9
+    },
+    {
+      "id": "campinas-especial-2026-11-09",
+      "mercado": "campinas-especial",
+      "inicio": "2026-11-09",
+      "fim": "2026-11-09",
+      "periodo": "09/11/2026",
+      "frequencia": "diária",
+      "valor": 8.0,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-11-09",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Especial",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "campinas-extra-2026-11-09",
+      "mercado": "campinas-extra",
+      "inicio": "2026-11-09",
+      "fim": "2026-11-09",
+      "periodo": "09/11/2026",
+      "frequencia": "diária",
+      "valor": 10.0,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-11-09",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Extra",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "campinas-primeira-2026-11-09",
+      "mercado": "campinas-primeira",
+      "inicio": "2026-11-09",
+      "fim": "2026-11-09",
+      "periodo": "09/11/2026",
+      "frequencia": "diária",
+      "valor": 6.0,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-11-09",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Primeira",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "ceagesp-15-a-18-dz-2026-11-09",
+      "mercado": "ceagesp-15-a-18-dz",
+      "inicio": "2026-11-09",
+      "fim": "2026-11-09",
+      "periodo": "09/11/2026",
+      "frequencia": "diária",
+      "valor": 9.15,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-11-09",
+      "fonte": "https://ceagesp.gov.br/cotacoes/",
+      "classificacao": "15 A 18 DZ",
+      "central": "ceagesp",
+      "tipo_preco": "mais comum",
+      "origem": "CEAGESP",
+      "valor_minimo": 8.69,
+      "valor_maximo": 9.52
+    },
+    {
+      "id": "ceagesp-21-a-27-dz-2026-11-09",
+      "mercado": "ceagesp-21-a-27-dz",
+      "inicio": "2026-11-09",
+      "fim": "2026-11-09",
+      "periodo": "09/11/2026",
+      "frequencia": "diária",
+      "valor": 6.9,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-11-09",
+      "fonte": "https://ceagesp.gov.br/cotacoes/",
+      "classificacao": "21 A 27 DZ",
+      "central": "ceagesp",
+      "tipo_preco": "mais comum",
+      "origem": "CEAGESP",
+      "valor_minimo": 6.49,
+      "valor_maximo": 7.3
+    },
+    {
+      "id": "ceagesp-acima-de-31-dz-2026-11-09",
+      "mercado": "ceagesp-acima-de-31-dz",
+      "inicio": "2026-11-09",
+      "fim": "2026-11-09",
+      "periodo": "09/11/2026",
+      "frequencia": "diária",
+      "valor": 4.8,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-11-09",
+      "fonte": "https://ceagesp.gov.br/cotacoes/",
+      "classificacao": "ACIMA DE 31 DZ",
+      "central": "ceagesp",
+      "tipo_preco": "mais comum",
+      "origem": "CEAGESP",
+      "valor_minimo": 4.38,
+      "valor_maximo": 5.2
     }
   ],
   "volumes": {
@@ -2132,13 +2240,13 @@
   "atualizacoes": {
     "ceagesp": {
       "status": "ok",
-      "verificado_em": "2026-11-07T01:59:54.190665+00:00",
-      "ultima_cotacao": "2026-11-06"
+      "verificado_em": "2026-11-10T04:10:41.355584+00:00",
+      "ultima_cotacao": "2026-11-09"
     },
     "campinas": {
       "status": "ok",
-      "verificado_em": "2026-11-07T02:00:13.465239+00:00",
-      "ultima_cotacao": "2026-11-06"
+      "verificado_em": "2026-11-10T04:11:00.641930+00:00",
+      "ultima_cotacao": "2026-11-09"
     }
   }
 }
