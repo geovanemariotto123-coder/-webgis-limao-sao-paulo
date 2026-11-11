@@ -2209,6 +2209,57 @@
       "origem": "CEAGESP",
       "valor_minimo": 4.38,
       "valor_maximo": 5.2
+    },
+    {
+      "id": "campinas-especial-2026-11-10",
+      "mercado": "campinas-especial",
+      "inicio": "2026-11-10",
+      "fim": "2026-11-10",
+      "periodo": "10/11/2026",
+      "frequencia": "diária",
+      "valor": 8.0,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-11-10",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Especial",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "campinas-extra-2026-11-10",
+      "mercado": "campinas-extra",
+      "inicio": "2026-11-10",
+      "fim": "2026-11-10",
+      "periodo": "10/11/2026",
+      "frequencia": "diária",
+      "valor": 10.0,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-11-10",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Extra",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "campinas-primeira-2026-11-10",
+      "mercado": "campinas-primeira",
+      "inicio": "2026-11-10",
+      "fim": "2026-11-10",
+      "periodo": "10/11/2026",
+      "frequencia": "diária",
+      "valor": 6.0,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-11-10",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Primeira",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
     }
   ],
   "volumes": {
@@ -2239,14 +2290,16 @@
   },
   "atualizacoes": {
     "ceagesp": {
-      "status": "ok",
+      "status": "erro",
       "verificado_em": "2026-11-10T04:10:41.355584+00:00",
-      "ultima_cotacao": "2026-11-09"
+      "ultima_cotacao": "2026-11-09",
+      "tentativa_em": "2026-11-11T01:59:22.001021+00:00",
+      "mensagem": "Consulta indisponível; mantido o último registro válido."
     },
     "campinas": {
       "status": "ok",
-      "verificado_em": "2026-11-10T04:11:00.641930+00:00",
-      "ultima_cotacao": "2026-11-09"
+      "verificado_em": "2026-11-11T01:59:40.873749+00:00",
+      "ultima_cotacao": "2026-11-10"
     }
   }
 }
