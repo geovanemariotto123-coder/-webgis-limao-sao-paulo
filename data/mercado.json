@@ -2260,6 +2260,114 @@
       "central": "campinas",
       "tipo_preco": "republicado",
       "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "campinas-especial-2026-11-11",
+      "mercado": "campinas-especial",
+      "inicio": "2026-11-11",
+      "fim": "2026-11-11",
+      "periodo": "11/11/2026",
+      "frequencia": "diária",
+      "valor": 8.0,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-11-11",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Especial",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "campinas-extra-2026-11-11",
+      "mercado": "campinas-extra",
+      "inicio": "2026-11-11",
+      "fim": "2026-11-11",
+      "periodo": "11/11/2026",
+      "frequencia": "diária",
+      "valor": 10.0,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-11-11",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Extra",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "campinas-primeira-2026-11-11",
+      "mercado": "campinas-primeira",
+      "inicio": "2026-11-11",
+      "fim": "2026-11-11",
+      "periodo": "11/11/2026",
+      "frequencia": "diária",
+      "valor": 6.0,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-11-11",
+      "fonte": "https://www.noticiasagricolas.com.br/cotacoes/frutas/limao-tahiti-ceasas",
+      "classificacao": "Primeira",
+      "central": "campinas",
+      "tipo_preco": "republicado",
+      "origem": "Notícias Agrícolas (republicação)"
+    },
+    {
+      "id": "ceagesp-15-a-18-dz-2026-11-11",
+      "mercado": "ceagesp-15-a-18-dz",
+      "inicio": "2026-11-11",
+      "fim": "2026-11-11",
+      "periodo": "11/11/2026",
+      "frequencia": "diária",
+      "valor": 8.86,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-11-11",
+      "fonte": "https://ceagesp.gov.br/cotacoes/",
+      "classificacao": "15 A 18 DZ",
+      "central": "ceagesp",
+      "tipo_preco": "mais comum",
+      "origem": "CEAGESP",
+      "valor_minimo": 8.42,
+      "valor_maximo": 9.27
+    },
+    {
+      "id": "ceagesp-21-a-27-dz-2026-11-11",
+      "mercado": "ceagesp-21-a-27-dz",
+      "inicio": "2026-11-11",
+      "fim": "2026-11-11",
+      "periodo": "11/11/2026",
+      "frequencia": "diária",
+      "valor": 6.89,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-11-11",
+      "fonte": "https://ceagesp.gov.br/cotacoes/",
+      "classificacao": "21 A 27 DZ",
+      "central": "ceagesp",
+      "tipo_preco": "mais comum",
+      "origem": "CEAGESP",
+      "valor_minimo": 6.37,
+      "valor_maximo": 7.28
+    },
+    {
+      "id": "ceagesp-acima-de-31-dz-2026-11-11",
+      "mercado": "ceagesp-acima-de-31-dz",
+      "inicio": "2026-11-11",
+      "fim": "2026-11-11",
+      "periodo": "11/11/2026",
+      "frequencia": "diária",
+      "valor": 4.77,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-11-11",
+      "fonte": "https://ceagesp.gov.br/cotacoes/",
+      "classificacao": "ACIMA DE 31 DZ",
+      "central": "ceagesp",
+      "tipo_preco": "mais comum",
+      "origem": "CEAGESP",
+      "valor_minimo": 4.33,
+      "valor_maximo": 5.22
     }
   ],
   "volumes": {
@@ -2290,16 +2398,14 @@
   },
   "atualizacoes": {
     "ceagesp": {
-      "status": "erro",
-      "verificado_em": "2026-11-10T04:10:41.355584+00:00",
-      "ultima_cotacao": "2026-11-09",
-      "tentativa_em": "2026-11-11T01:59:22.001021+00:00",
-      "mensagem": "Consulta indisponível; mantido o último registro válido."
+      "status": "ok",
+      "verificado_em": "2026-11-12T03:08:16.189762+00:00",
+      "ultima_cotacao": "2026-11-11"
     },
     "campinas": {
       "status": "ok",
-      "verificado_em": "2026-11-11T01:59:40.873749+00:00",
-      "ultima_cotacao": "2026-11-10"
+      "verificado_em": "2026-11-12T03:08:35.390248+00:00",
+      "ultima_cotacao": "2026-11-11"
     }
   }
 }
