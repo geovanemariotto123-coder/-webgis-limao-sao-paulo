@@ -2570,14 +2570,14 @@
   "atualizacoes": {
     "ceagesp": {
       "status": "ok",
-      "verificado_em": "2026-11-19T03:38:54.747002+00:00",
+      "verificado_em": "2026-11-20T03:28:16.522642+00:00",
       "ultima_cotacao": "2026-11-18"
     },
     "campinas": {
       "status": "erro",
       "verificado_em": "2026-11-12T03:08:35.390248+00:00",
       "ultima_cotacao": "2026-11-11",
-      "tentativa_em": "2026-11-19T03:39:13.905568+00:00",
+      "tentativa_em": "2026-11-20T03:28:35.163948+00:00",
       "mensagem": "Consulta indisponível; mantido o último registro válido."
     }
   }
