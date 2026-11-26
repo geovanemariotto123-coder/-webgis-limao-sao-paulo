@@ -2596,6 +2596,63 @@
       "origem": "CEAGESP",
       "valor_minimo": 2.98,
       "valor_maximo": 3.51
+    },
+    {
+      "id": "ceagesp-15-a-18-dz-2026-11-25",
+      "mercado": "ceagesp-15-a-18-dz",
+      "inicio": "2026-11-25",
+      "fim": "2026-11-25",
+      "periodo": "25/11/2026",
+      "frequencia": "diária",
+      "valor": 5.77,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-11-25",
+      "fonte": "https://ceagesp.gov.br/cotacoes/",
+      "classificacao": "15 A 18 DZ",
+      "central": "ceagesp",
+      "tipo_preco": "mais comum",
+      "origem": "CEAGESP",
+      "valor_minimo": 5.46,
+      "valor_maximo": 6.08
+    },
+    {
+      "id": "ceagesp-21-a-27-dz-2026-11-25",
+      "mercado": "ceagesp-21-a-27-dz",
+      "inicio": "2026-11-25",
+      "fim": "2026-11-25",
+      "periodo": "25/11/2026",
+      "frequencia": "diária",
+      "valor": 4.62,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-11-25",
+      "fonte": "https://ceagesp.gov.br/cotacoes/",
+      "classificacao": "21 A 27 DZ",
+      "central": "ceagesp",
+      "tipo_preco": "mais comum",
+      "origem": "CEAGESP",
+      "valor_minimo": 4.29,
+      "valor_maximo": 4.92
+    },
+    {
+      "id": "ceagesp-acima-de-31-dz-2026-11-25",
+      "mercado": "ceagesp-acima-de-31-dz",
+      "inicio": "2026-11-25",
+      "fim": "2026-11-25",
+      "periodo": "25/11/2026",
+      "frequencia": "diária",
+      "valor": 2.82,
+      "peso_kg": 1,
+      "unidade": "R$/kg",
+      "publicacao": "2026-11-25",
+      "fonte": "https://ceagesp.gov.br/cotacoes/",
+      "classificacao": "ACIMA DE 31 DZ",
+      "central": "ceagesp",
+      "tipo_preco": "mais comum",
+      "origem": "CEAGESP",
+      "valor_minimo": 2.55,
+      "valor_maximo": 3.09
     }
   ],
   "volumes": {
@@ -2627,14 +2684,14 @@
   "atualizacoes": {
     "ceagesp": {
       "status": "ok",
-      "verificado_em": "2026-11-25T04:56:09.026968+00:00",
-      "ultima_cotacao": "2026-11-23"
+      "verificado_em": "2026-11-26T04:12:17.720939+00:00",
+      "ultima_cotacao": "2026-11-25"
     },
     "campinas": {
       "status": "erro",
       "verificado_em": "2026-11-12T03:08:35.390248+00:00",
       "ultima_cotacao": "2026-11-11",
-      "tentativa_em": "2026-11-25T04:56:28.154326+00:00",
+      "tentativa_em": "2026-11-26T04:12:36.726807+00:00",
       "mensagem": "Consulta indisponível; mantido o último registro válido."
     }
   }
